@@ -1,0 +1,408 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/base2.css">
+    <link rel="stylesheet" href="../css/main2.css">
+
+    <script defer src="/__/firebase/5.5.8/firebase-app.js"></script>
+    <script defer src="/__/firebase/5.5.8/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.5.8/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.5.8/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.5.8/firebase-storage.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="http://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+    <script defer src="../js/main2.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top clear">
+            <a href="#" class="te">
+                <img src="../images/wh-purplelogo.png" alt="">
+            </a>
+            <ul class="gnb">
+                <li><a href="#">INTRO</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">ABOUTME</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="section banner" id="banner">
+        <div class="ban">
+            <h1 class="te"><span class="te_block"> <span class="te_bold">Web</span> Publisher</span>
+                <span class="te_block">Yune's <span class="te_bold">Portfolio</span></span>
+            </h1>
+            <h5>Hi,there. Thank you for visiting my page</h5>
+        </div>
+    </div>
+
+
+
+    <!---->
+    <div class="banner_2" id="banner_2">
+        <div class="ban2_img">
+            <img src="../images/picasso.png" alt="" class="img">
+            <span>-Pablo Picasso-</span>
+        </div>
+    </div>
+
+    <!--port-->
+    <div class="port">
+        <div class="port_line">
+            <div class="port_title">
+                <img src="../images/port-purple.png" alt="" class="img">
+            </div>
+
+            <ul class="port_nav">
+                <li>
+                    <div>ALL</div>
+                </li>
+                <li>
+                    <div>FIXED WEB</div>
+                </li>
+                <li>
+                    <div>RESPONSIVE WEB</div>
+                </li>
+                <li>
+                    <div>BOOTSTRAP</div>
+                </li>
+                <li>
+                    <div>DATABASE</div>
+                </li>
+                <li>
+                    <div>DESIGN ARTWORK</div>
+                </li>
+            </ul>
+
+            <ul class="port_list clear">
+                <li class="bot">
+                    <div class="pt_box">
+                        <img src="../images/p1.jpg" class="img">
+                        <div class="pt_black">
+                            <div class="pt_border">
+                                <div class="pt_table">
+                                    <div class="pt_cell right">
+                                        <h2>인절미 빙수 & 미어캣<br />
+                                            콜라보레이션
+                                        </h2>
+                                        <p>귀여운 미어캣을 볼 수 있는 사막과
+                                            <span>인절미 빙수를 합성한 작품입니다.</span>
+                                        </p>
+                                        <p class="detail">자세히</p>
+                                        <h3 class="cell_title">합성-미어캣</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="bot">
+                    <div class="pt_box">
+                        <img src="../images/p2.jpg" class="img">
+                        <div class="pt_black">
+                            <div class="pt_border">
+                                <div class="pt_table">
+                                    <div class="pt_cell center">
+                                        <h2>인절미 빙수 & 미어캣 <br />
+                                            콜라보레이션
+                                        </h2>
+                                        <p>귀여운 미어캣을 볼 수 있는 사막과
+                                            <span>인절미 빙수를 합성한 작품입니다.</span>
+                                        </p>
+                                        <p class="detail">자세히</p>
+                                        <h3 class="cell_title">합성-미어캣</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="bot">
+                    <div class="pt_box">
+                        <img src="../images/p3.jpg" class="img">
+                        <div class="pt_black">
+                            <div class="pt_border">
+                                <div class="pt_table">
+                                    <div class="pt_cell left">
+                                        <h2>인절미 빙수 & 미어캣 <br />
+                                            콜라보레이션
+                                        </h2>
+                                        <p>귀여운 미어캣을 볼 수 있는 사막과
+                                            <span>인절미 빙수를 합성한 작품입니다.</span>
+                                        </p>
+                                        <p class="detail">자세히</p>
+                                        <h3 class="cell_title">합성-미어캣</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!---->
+                <li class="bot">
+                    <div class="pt_box">
+                        <img src="../images/p4.jpg" class="img">
+                        <div class="pt_black">
+                            <div class="pt_border">
+                                <div class="pt_table">
+                                    <div class="pt_cell right">
+                                        <h2>인절미 빙수 & 미어캣<br />
+                                            콜라보레이션
+                                        </h2>
+                                        <p>귀여운 미어캣을 볼 수 있는 사막과
+                                            <span>인절미 빙수를 합성한 작품입니다.</span>
+                                        </p>
+                                        <p class="detail">자세히</p>
+                                        <h3 class="cell_title">합성-미어캣</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="bot">
+                    <div class="pt_box">
+                        <img src="../images/p5.jpg" class="img">
+                        <div class="pt_black">
+                            <div class="pt_border">
+                                <div class="pt_table">
+                                    <div class="pt_cell center">
+                                        <h2>인절미 빙수 & 미어캣 <br />
+                                            콜라보레이션
+                                        </h2>
+                                        <p>귀여운 미어캣을 볼 수 있는 사막과
+                                            <span>인절미 빙수를 합성한 작품입니다.</span>
+                                        </p>
+                                        <p class="detail">자세히</p>
+                                        <h3 class="cell_title">합성-미어캣</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="bot">
+                    <div class="pt_box">
+                        <img src="../images/p6.jpg" class="img">
+                        <div class="pt_black">
+                            <div class="pt_border">
+                                <div class="pt_table">
+                                    <div class="pt_cell left">
+                                        <h2>인절미 빙수 & 미어캣 <br />
+                                            콜라보레이션
+                                        </h2>
+                                        <p>귀여운 미어캣을 볼 수 있는 사막과
+                                            <span>인절미 빙수를 합성한 작품입니다.</span>
+                                        </p>
+                                        <p class="detail">자세히</p>
+                                        <h3 class="cell_title">합성-미어캣</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!---->
+                <li>
+                    <div class="pt_box">
+                        <img src="../images/p7.jpg" class="img">
+                        <div class="pt_black">
+                            <div class="pt_border">
+                                <div class="pt_table">
+                                    <div class="pt_cell right">
+                                        <h2>인절미 빙수 & 미어캣<br />
+                                            콜라보레이션
+                                        </h2>
+                                        <p>귀여운 미어캣을 볼 수 있는 사막과
+                                            <span>인절미 빙수를 합성한 작품입니다.</span>
+                                        </p>
+                                        <p class="detail">자세히</p>
+                                        <h3 class="cell_title">합성-미어캣</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="pt_box">
+                        <img src="../images/p8.jpg" class="img">
+                        <div class="pt_black">
+                            <div class="pt_border">
+                                <div class="pt_table">
+                                    <div class="pt_cell center">
+                                        <h2>인절미 빙수 & 미어캣 <br />
+                                            콜라보레이션
+                                        </h2>
+                                        <p>귀여운 미어캣을 볼 수 있는 사막과
+                                            <span>인절미 빙수를 합성한 작품입니다.</span>
+                                        </p>
+                                        <p class="detail">자세히</p>
+                                        <h3 class="cell_title">합성-미어캣</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="pt_box">
+                        <img src="../images/p9.jpg" class="img">
+                        <div class="pt_black">
+                            <div class="pt_border">
+                                <div class="pt_table">
+                                    <div class="pt_cell left">
+                                        <h2>인절미 빙수 & 미어캣 <br />
+                                            콜라보레이션
+                                        </h2>
+                                        <p>귀여운 미어캣을 볼 수 있는 사막과
+                                            <span>인절미 빙수를 합성한 작품입니다.</span>
+                                        </p>
+                                        <p class="detail">자세히</p>
+                                        <h3 class="cell_title">합성-미어캣</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="port_bt">
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+            </div>
+
+        </div>
+
+        <div class="port-tri"></div>
+    </div>
+
+
+    <!--SKILLS-->
+    <div class="skills clear">
+        <div class="skill_title">
+            <img src="../images/skills.png" class="img">
+        </div>
+
+
+        <div class="bar">
+            <div class="fill">
+                <span class="number">75%</span>
+            </div>
+            <span>PHOTOSHOP</span>
+        </div>
+
+
+        <div class="bar">
+            <div class="fill">
+                <span class="number">75%</span>
+            </div>
+            <span>ILLUSTRATOR</span>
+        </div>
+
+
+        <div class="bar">
+            <div class="fill">
+                <span class="number">75%</span>
+            </div>
+            <span>HTML</span>
+        </div>
+
+
+        <div class="bar">
+            <div class="fill">
+                <span class="number">75%</span>
+            </div>
+            <span>CSS</span>
+        </div>
+
+
+        <div class="bar">
+            <div class="fill">
+                <span class="number">75%</span>
+            </div>
+            <span>JAVASCRIPT</span>
+        </div>
+
+
+        <div class="bar">
+            <div class="fill">
+                <span class="number">75%</span>
+            </div>
+            <span>JQUERY</span>
+        </div>
+
+
+        <div class="balloon">
+            <div class="ball_tr"></div>
+        </div>
+    </div>
+
+
+    <!--ABOUT ME-->
+    <div class="about clear">
+        <div class="ab_tri"></div>
+        <div class="ab_title">
+            <img src="../images/aboutme.png" class="img">
+        </div>
+        <!-- <div class="ab_box"> -->
+        <div class="ab_left">
+
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+            <ul>
+                <li></li>
+                <li>
+                    <ul>
+                        <li>
+                            <div></div>
+                            Korean
+                        </li>
+                        <li>
+                            <div></div>
+                            English
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                    </ul>
+                </li>
+                <li></li>
+            </ul>
+
+        <div class="resume"></div>
+        </div>
+        <div class="ab_right">
+            <img src="../images/about2.jpg" class="img">
+        </div>
+        <!-- </div> -->
+    </div>
+
+</body>
+
+</html>

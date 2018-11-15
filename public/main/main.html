@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>firebase 연습</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <script defer src="/__/firebase/5.5.8/firebase-app.js"></script>
+  <script defer src="/__/firebase/5.5.8/firebase-auth.js"></script>
+  <script defer src="/__/firebase/5.5.8/firebase-database.js"></script>
+  <script defer src="/__/firebase/5.5.8/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/5.5.8/firebase-storage.js"></script>
+  <script defer src="/__/firebase/init.js"></script>
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script defer src="http://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+  <script defer src="../js/main.js"></script>
+</head>
+
+<body>
+  <div class="login">
+    <div>
+      <h3>방명록 연습</h3>
+      <button class="w3-button w3-teal">
+        <i class="fa fa-google"></i>
+        구글 로그인</button>
+    </div>
+  </div>
+
+  <section class="wrap">
+    <header class="clear w3-padding w3-teal">
+      <div class="fl">방명록</div>
+      <div class="fr"><button class="w3-button w3-red logout">로그아웃</button></div>
+    </header>
+
+    <ul class="lists">
+      <li>
+        <h4>글입니다.</h4>
+        <h5>rhs250118@gmail.com</h5>
+        <button class="rev_icon"><i class="fa fa-trash"></i></button>
+      </li>
+    </ul>
+    
+    <article class="writer">
+      <div>
+        <textarea id="content" placeholder="방명록을 작성해주세요"></textarea>
+      </div>
+      <div>
+        <button id="bt_wr" class="w3-button w3-indigo">저장</button>
+      </div>
+    </article>
+  </section>
+
+  <!--   <div class="box clear">
+    <div class="login">
+      <h2>firebase 연습</h2>
+      <button id="bt_login" class="w3-button w3-blue">google login</button>
+    </div>
+    <div class="board">
+      <div class="header clear">
+        <h3>작성된 글 입니다</h3>
+        <i class="fa fa-minus-circle" aria-hidden="true"></i>
+      </div>
+      <ul class="index"></ul>
+      <div class="write">
+        <textarea id="content" class="content" placeholder="text"></textarea>
+        <button id="bt_save" class="w3-button w3-red">저장</button>
+      </div>
+    </div>
+  </div> -->
+
+</body>
+
+</html>
