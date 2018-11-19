@@ -43,22 +43,28 @@ $(".pt_box").hover(function(){
 
     /**구글로그인 */
     $(".head_but .login").on("click", function(){
-        // auth.signInWithPopup(googleAuth);
-        auth.signInWithRedirect(googleAuth);
+        auth.signInWithPopup(googleAuth);
+        // auth.signInWithRedirect(googleAuth);
     });
 
 
 /**로그아웃 */
-$(".out .logout").click(function(){
+$(".logout").click(function(){
     auth.signOut();
 })
 
 auth.onAuthStateChanged(function(result){
     if(result){
+        $(".login").hide();
+        $(".logout").show();
+        $("#bt_save").show();
         user = result;
         init();
     }
     else{
+        $(".login").show();
+        $(".logout").hide();
+        $("#bt_save").hide();
         $(".head_but .login").show();
         $(".lists").empty();
     }

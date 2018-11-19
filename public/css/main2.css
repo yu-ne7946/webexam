@@ -114,7 +114,7 @@ padding:5px 0; border-radius:10px;}
 
 
 /*Contact me*/
-.resume{width:100%; height:400px; background-image:url("../images/contactback.jpg"); background-size:cover; background-repeat:no-repeat;}
+.resume{width:100%; height:400px; background-image:url("../images/pattern.jpg"); background-size:cover; background-position:center center;}
 
 .resume .resu-board{ width:100%; max-width:1200px; margin:0 auto; height:inherit;}
 .resu-board h3{text-align:center;}
@@ -134,4 +134,4 @@ padding:5px 0; border-radius:10px;}
 .lists >li button{position:absolute; bottom:10px; right:10px;}
 .out{width:60%; margin:0 auto;}
 .out button{width:100px; float:right;}
-.logout{ width:inherit; height:24px;}
+.logout{ width:inherit; height:24px; display:none;}
