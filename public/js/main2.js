@@ -19,7 +19,7 @@ $(".pt_box").hover(function(){
 });
 
 
-
+ 
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyBjStabE0pYryBrCwywPl-nlwxiRguU0lM",
@@ -53,7 +53,7 @@ $(".out .logout").click(function(){
     auth.signOut();
 })
 
-auth.onAuthStateChanged(function(){
+auth.onAuthStateChanged(function(result){
     if(result){
         user = result;
         init();
@@ -64,9 +64,62 @@ auth.onAuthStateChanged(function(){
     }
 });
 
+/**구글 로그인 후 초기셋팅 */
+function init(){
+    $(".head_but .login").hide();
+    $(".lists").empty();
+    ref = db.ref("root/memos/");
+    ref.on("child_added",onAdd);
+    ref.on("child_removed",onRev);
+}
 
+/**데이터 추가되면  */
+function onAdd(data){
+    var id =data.key;
+    var val = data.val();
+    var html = ''
+    html += '<li id="'+ id +'">';
+    html += '<h4>'+ val.content +'</h4>';
+    html += '<h5>'+ val.email +'</h5>';
+    html += '<button onclick="revData(this)"><i class="fa fa-trash"></i></button>';
+    html += '</li>';
+    $(".lists").prepend(html);
+}
 
+/**데이터 지워지면 */
+function onRev(data){
+    $("#" + data.key).remove();
+}
 
+/**저장 버튼 클릭 */
+$("#bt_save").click(function(){
+    var content = $("#content").val();
+    if(content == ""){
+        alert("내용을 입력해주세요");
+        $("#content").focus();
+    }
+    else{
+        ref = db.ref("root/memos/");
+        ref.push({
+            content : content,
+            wdate : new Date().getTime(),
+            email : user.email
+        }).key;
+        $("#content").val("");
+    }
+});
+
+/**쓰레기통버튼 클릭했을 때 실행되는 함수 */
+function revData(obj){
+  var id = $(obj).parent().attr("id");
+  if($(obj).parent().find("h5").html() == user.email){
+      ref = db.ref("root/memos/" + id);
+      ref.remove();
+  }
+  else{
+      alert("타인의 글은 삭제 할 수 없습니다.")
+  }
+};
 /* $(".pt_cell").hover(function () {
     $(".pt_black").css({
         "background-color": "rgba(0,0,0,0.6)",

@@ -9,3 +9,4 @@
 **/.firebaserc
 .runtimeconfig.json
 .firebase/
+*.psd
