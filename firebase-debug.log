@@ -27,3 +27,62 @@
 [debug] [2018-11-19T05:14:19.736Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-11-21T05:47:07.112Z] ----------------------------------------------------------------------
+[debug] [2018-11-21T05:47:07.118Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-11-21T05:47:07.118Z] CLI Version:   5.1.1
+[debug] [2018-11-21T05:47:07.118Z] Platform:      win32
+[debug] [2018-11-21T05:47:07.118Z] Node Version:  v8.12.0
+[debug] [2018-11-21T05:47:07.121Z] Time:          Wed Nov 21 2018 14:47:07 GMT+0900 (대한민국 표준시)
+[debug] [2018-11-21T05:47:07.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-21T05:47:07.162Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-21T05:47:07.163Z] > authorizing via signed-in user
+[debug] [2018-11-21T05:47:07.164Z] [iam] checking project yune-webexam for permissions ["firebase.projects.get"]
+[debug] [2018-11-21T05:47:07.168Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-21T05:47:07.169Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-21T05:47:07.760Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-21T05:47:07.775Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/yune-webexam:testIamPermissions  
+
+[debug] [2018-11-21T05:47:09.279Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-21T05:47:09.282Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/yune-webexam  
+ 
+[debug] [2018-11-21T05:47:10.465Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\webexam'...
+[info] 
+[debug] [2018-11-21T05:47:10.475Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/818997460867/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-21T05:47:11.186Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5005
+[debug] [2018-11-22T07:19:47.052Z] ----------------------------------------------------------------------
+[debug] [2018-11-22T07:19:47.057Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-11-22T07:19:47.058Z] CLI Version:   5.1.1
+[debug] [2018-11-22T07:19:47.058Z] Platform:      win32
+[debug] [2018-11-22T07:19:47.058Z] Node Version:  v8.12.0
+[debug] [2018-11-22T07:19:47.060Z] Time:          Thu Nov 22 2018 16:19:47 GMT+0900 (대한민국 표준시)
+[debug] [2018-11-22T07:19:47.060Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-22T07:19:47.084Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-22T07:19:47.085Z] > authorizing via signed-in user
+[debug] [2018-11-22T07:19:47.085Z] [iam] checking project yune-webexam for permissions ["firebase.projects.get"]
+[debug] [2018-11-22T07:19:47.090Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-22T07:19:47.090Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-22T07:19:47.621Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-22T07:19:47.636Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/yune-webexam:testIamPermissions  
+
+[debug] [2018-11-22T07:19:48.884Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-22T07:19:48.888Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/yune-webexam  
+ 
+[debug] [2018-11-22T07:19:50.052Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\webexam'...
+[info] 
+[debug] [2018-11-22T07:19:50.059Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/818997460867/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-22T07:19:50.750Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
