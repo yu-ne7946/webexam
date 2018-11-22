@@ -1,4 +1,4 @@
-<html lang="ko">
+<wrap lang="ko">
 
 <head>
     <meta charset="UTF-8">
@@ -22,7 +22,9 @@
 </head>
 
 <body>
-    <div class="top_gnb">
+    <wrap>
+        
+    <div class="header">
         <div class="top clear">
             <a href="#" class="te">
                 <img src="../images/wh-purplelogo.png" alt="">
@@ -37,19 +39,20 @@
         </div>
     </div>
 
-    <header class="v-header">
+
+    <section>
+    <div class="main-banner" id="#page1">
 
         <div class="fullscreen-video">
             <video autoplay loop muted>
-                <source src="../images/video/Statue Of Liberty.mp4" type="video/mp4" />
+                <source src="../images/video/Pexels Videos 5244.mp4" type="video/mp4" />
             </video>
 
         </div>
-        <!--         <div class="header-overlay">
+        <!--<div class="header-overlay">
 
         </div> -->
-        <div class="header-content">
-
+        <div class="main-content">
             <h1 class="te">
                 <span class="te_block">
                     <span class="te_bold">Web</span>
@@ -62,45 +65,20 @@
         </div>
 
 
-    </header>
+    </div>
 
 
-    <!--     <header>
-        <div class="top clear">
-            <a href="#" class="te">
-                <img src="../images/wh-purplelogo.png" alt="">
-            </a>
-            <ul class="gnb">
-                <li><a href="#">INTRO</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">SKILLS</a></li>
-                <li><a href="#">ABOUTME</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <div class="section banner" id="banner">
-        <div class="ban">
-            <h1 class="te"><span class="te_block"> <span class="te_bold">Web</span> Publisher</span>
-                <span class="te_block">Yune's <span class="te_bold">Portfolio</span></span>
-            </h1>
-            <h5>Hi,there. Thank you for visiting my page</h5>
-        </div>
-    </div> -->
-
-
-
+    
     <!---->
     <div class="banner_2" id="banner_2">
         <div class="ban2_img">
-            <img src="../images/picasso.png" alt="" class="img">
-            <span>-Pablo Picasso-</span>
+            <img src="../images/quote.png" alt="" class="img">
+            <!-- <span>-Pablo Picasso-</span> -->
         </div>
     </div>
 
     <!--port-->
-    <div class="port">
+    <div class="port" id="page2">
         <div class="port_line">
             <div class="port_title">
                 <img src="../images/port-purple.png" alt="" class="img">
@@ -342,7 +320,7 @@
 
 
     <!--SKILLS-->
-    <div class="skills clear te">
+    <div class="skills clear te" id="page3">
         <div class="skill_title">
             <img src="../images/skills.png" class="img">
         </div>
@@ -403,7 +381,7 @@
 
 
     <!--ABOUT ME-->
-    <div class="about clear">
+    <div class="about clear"  id="page4">
         <div class="ab_tri"></div>
         <div class="ab_title">
             <img src="../images/aboutme.png" class="img">
@@ -452,7 +430,7 @@
     </div>
 
     <!--contact-->
-    <div class="resume clear">
+    <div class="resume clear"  id="page5">
         <div class="resu_box">
 
             <div class="resu_title">
@@ -460,18 +438,22 @@
             </div>
 
             <div class="resu_icon clear te">
-                <div class="resu_div clear" id="resu_left">
+                <div class="resu_div" id="resu_left">
 
-                    <div class="icon_box"><img src="../images/phone.png" class="img"></div>
-                    <h3 class="icon_li_text">010-6433-6138</h3>
+                    <div class="icon_box">
+                        <img src="../images/phone.png" >
+                        <span>010-6433-6138</span>
+                    </div>
 
                 </div>
 
-                <div class="resu_div clear" id="resu_right">
+                <div class="resu_div" id="resu_right">
 
-                    <div class="icon_box"><img src="../images/mail.png" class="img"></div>
-                    <h3 class="icon_li_text">rleah2394@gmail.com
-                    </h3>
+                    <div class="icon_box">
+                        <img src="../images/mail.png"  >
+                        <span>rleah2394@gmail.com
+                                <!--align="absmiddle"-->
+                    </div>
 
 
                 </div>
@@ -482,7 +464,7 @@
                 <h3 class="te">Please Leave me a comment</h3>
 
 
-                <div class="header clear">
+                <div class="resu_input">
                     <div class="head_text"><textarea id="content" placeholder="방명록을 작성해주세요"></textarea></div>
                     <div class="head_but">
                         <button class="login board_bt">
@@ -506,7 +488,16 @@
             </div>
         </div>
     </div>
+</section>
 
+<footer>
+    <div class="foot_box">
+        <p class="te">Creator by Yunhye RA.2018</p>
+    </div>
+</footer>
 </body>
+
+
+</wrap>
 
 </html>
