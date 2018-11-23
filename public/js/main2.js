@@ -10,7 +10,7 @@ $(window).scroll(function(){
 	else {
 		$(".header").css({"top":"-60px"}).removeClass("dn_bg");
         $(".header").stop().animate({"top":"0px"}, 500);
-        $(".top" > img)
+     
 	}
 });
 
