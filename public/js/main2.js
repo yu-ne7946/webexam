@@ -184,3 +184,67 @@ function revData(obj){
 .pt_black{top:0; height:100%;}
 .pt_border{height:90%;}
 */
+
+
+var data = [{
+	datasets: [{
+			data: [70],
+			backgroundColor: [
+				'rgba(121, 72, 63, 1)'
+			],
+			
+	}]
+},{
+	datasets: [{
+			data: [70],
+			backgroundColor: [
+                'rgba(121, 72, 63, 1)'
+								],
+
+	}]
+},{
+	datasets: [{
+			data: [70],
+			backgroundColor: [
+                'rgba(121, 72, 63, 1)'
+			],
+	}]
+},
+{
+	datasets: [{
+			data: [70],
+			backgroundColor: [
+                'rgba(121, 72, 63, 1)'
+			],
+	}]
+},
+{
+	datasets: [{
+			data: [70],
+			backgroundColor: [
+                'rgba(121, 72, 63, 1)'
+			],
+	}]
+},
+{
+	datasets: [{
+			data: [70],
+			backgroundColor: [
+                'rgba(121, 72, 63, 1)'
+			],
+	}]
+}
+
+
+
+];
+
+var chart = [];
+var ctx = $(".chart");
+ctx.each(function(i){
+	chart[i] = new Chart($(this), {
+		type: 'doughnut',
+		data: data[i],
+		options: option[i]
+	});
+});
