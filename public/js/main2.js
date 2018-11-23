@@ -1,3 +1,18 @@
+/**GNB */
+$(window).scroll(function(){
+	var gap = $(window).scrollTop();
+	if(gap > 150) {
+		if(!$(".header").hasClass("dn_bg")) {
+			$(".header").css({"top":"-60px"}).addClass("dn_bg");
+			$(".header").stop().animate({"top":"0px"}, 500);
+		}
+	}
+	else {
+		$(".header").css({"top":"-60px"}).removeClass("dn_bg");
+        $(".header").stop().animate({"top":"0px"}, 500);
+        $(".top" > img)
+	}
+});
 
 
 $(".pt_box").hover(function(){
@@ -187,64 +202,147 @@ function revData(obj){
 
 
 var data = [{
-	datasets: [{
-			data: [70],
-			backgroundColor: [
-				'rgba(121, 72, 63, 1)'
-			],
-			
-	}]
-},{
-	datasets: [{
-			data: [70],
-			backgroundColor: [
-                'rgba(121, 72, 63, 1)'
-								],
+    datasets: [{
+        data: [100],
+        backgroundColor: [
+            'rgba(121, 72, 163, 1)'
+        ],
 
-	}]
-},{
-	datasets: [{
-			data: [70],
-			backgroundColor: [
-                'rgba(121, 72, 63, 1)'
-			],
-	}]
+    }]
+}, {
+    datasets: [{
+        data: [100],
+        backgroundColor: [
+            'rgba(121, 72, 163, 1)'
+        ],
+
+    }]
+}, {
+    datasets: [{
+        data: [100],
+        backgroundColor: [
+            'rgba(121, 72, 163, 1)'
+        ],
+    }]
 },
 {
-	datasets: [{
-			data: [70],
-			backgroundColor: [
-                'rgba(121, 72, 63, 1)'
-			],
-	}]
+    datasets: [{
+        data: [100],
+        backgroundColor: [
+            'rgba(121, 72, 163, 1)'
+        ],
+    }]
 },
 {
-	datasets: [{
-			data: [70],
-			backgroundColor: [
-                'rgba(121, 72, 63, 1)'
-			],
-	}]
+    datasets: [{
+        data: [100],
+        backgroundColor: [
+            'rgba(121, 72, 163, 1)'
+        ],
+    }]
 },
 {
-	datasets: [{
-			data: [70],
-			backgroundColor: [
-                'rgba(121, 72, 63, 1)'
-			],
-	}]
+    datasets: [{
+        data: [100],
+        backgroundColor: [
+            'rgba(121, 72, 163, 1)'
+        ],
+    }]
 }
+];
 
+var option = [{
 
+    cutoutPercentage: 70,
+    rotation: 1.5 * Math.PI,
+    circumference: 1.4* Math.PI,
+    animation: {
+        animateRotate: true,
+        animateScale: false
+    },
+    layout: {
+        padding: 0
+    },
+    aspectRatio:1
+},
+{
 
+    cutoutPercentage:70,
+    rotation: 1.5 * Math.PI,
+    circumference: 1.4 * Math.PI,
+    animation: {
+        animateRotate: true,
+        animateScale: false
+    },
+    layout:{
+        padding:0
+    },
+    aspectRatio:1
+}, 
+{
+
+    cutoutPercentage: 70,
+    rotation: 1.5 * Math.PI,
+    circumference: 1.8 * Math.PI,
+    animation: {
+        animateRotate: true,
+        animateScale: false
+    },
+    layout:{
+        padding:0
+    },
+    aspectRatio:1
+}, 
+{
+
+    cutoutPercentage: 70,
+    rotation: 1.5 * Math.PI,
+    circumference: 1.8 * Math.PI,
+    animation: {
+        animateRotate: true,
+        animateScale: false
+    },
+    layout:{
+        padding:0
+    },
+    aspectRatio:1
+}, 
+{
+
+    cutoutPercentage: 70,
+    rotation: 1.5 * Math.PI,
+    circumference: 1.6 * Math.PI,
+    animation: {
+        animateRotate: true,
+        animateScale: false
+    },
+    layout:{
+        padding:0
+    },
+    aspectRatio:1
+}, 
+{
+
+    cutoutPercentage:70,
+    rotation: 1.5 * Math.PI,
+    circumference: 1.6 * Math.PI,
+    animation: {
+        animateRotate: true,
+        animateScale: false
+    },
+    layout:{
+        padding:0
+    },
+    aspectRatio:1
+}, 
 ];
 
 var chart = [];
 var ctx = $(".chart");
-ctx.each(function(i){
-	chart[i] = new Chart($(this), {
-		type: 'doughnut',
-		data: data[i],
-		options: option[i]
-	});
+ctx.each(function (i) {
+chart[i] = new Chart($(this), {
+    type: 'doughnut',
+    data: data[i],
+    options: option[i]
+});
 });
