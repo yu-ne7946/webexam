@@ -1,0 +1,29 @@
+[debug] [2018-11-28T04:28:24.189Z] ----------------------------------------------------------------------
+[debug] [2018-11-28T04:28:24.201Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-11-28T04:28:24.202Z] CLI Version:   5.1.1
+[debug] [2018-11-28T04:28:24.202Z] Platform:      win32
+[debug] [2018-11-28T04:28:24.202Z] Node Version:  v8.12.0
+[debug] [2018-11-28T04:28:24.207Z] Time:          Wed Nov 28 2018 13:28:24 GMT+0900 (대한민국 표준시)
+[debug] [2018-11-28T04:28:24.207Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-28T04:28:24.246Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-28T04:28:24.249Z] > authorizing via signed-in user
+[debug] [2018-11-28T04:28:24.249Z] [iam] checking project yune-webexam for permissions ["firebase.projects.get"]
+[debug] [2018-11-28T04:28:24.255Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-28T04:28:24.256Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-28T04:28:25.181Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-28T04:28:25.205Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/yune-webexam:testIamPermissions  
+
+[debug] [2018-11-28T04:28:26.436Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-28T04:28:26.441Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/yune-webexam  
+ 
+[debug] [2018-11-28T04:28:27.594Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\webexam'...
+[info] 
+[debug] [2018-11-28T04:28:27.604Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/818997460867/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-28T04:28:28.269Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
