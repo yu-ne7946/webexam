@@ -19,7 +19,7 @@ $(".pt_box").hover(function(){
     $(this).find(".pt_black").stop().animate({"top":"0%", "height":"100%"}, 400);
   
     $(this).find(".pt_border").stop().animate({"height":"95%","margin":"2% auto 1%"}, 400);
-    $(this).find(".cell_title").css("bottom","-15px");
+    $(this).find(".cell_title").css("bottom","-0.9375rem");
     $(this).find(".pt_cell h2").css("display","block");
     $(this).find(".pt_cell p").css("display","block");
     $(this).find(".detail").css("display","block");
@@ -27,7 +27,7 @@ $(".pt_box").hover(function(){
 }, function(){
     $(this).find(".pt_black").stop().animate({"top":"40%", "height":"20%"}, 400);
     $(this).find(".pt_border").stop().animate({"width":"95%","height":"60%","margin":"3% auto 2%"}, 400);
-    $(this).find(".cell_title").css("bottom","-12px");
+    $(this).find(".cell_title").css("bottom","-0.75rem");
     $(this).find(".pt_cell h2").css("display","none");
     $(this).find(".pt_cell p").css("display","none");
     $(this).find(".detail").css("display","none");
