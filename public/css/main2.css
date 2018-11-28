@@ -4,7 +4,7 @@
 .header{width:100%; color:#fff; font-size:1rem; position:fixed;
     z-index:99999; font-family: 'Roboto', sans-serif;}
 .dn_bg {background-color:rgba(221,199,240,0.9); color:#000; box-shadow:0 5px 5px rgba(0,0,0,0.4);}
-.top{width:100%; max-width:1560px; margin: auto; padding:5px 0;}
+.top{width:100%; max-width:1863px; margin: auto; padding:5px 0;}
 .top >a{float:left; display:block; /* font-weight:500; font-size:1.75em; padding:0.1875rem 0; */}
 .gnb{float:right;}
 .gnb li{float:left; width:100px; text-align:center; padding-top:20.37px; }
@@ -76,8 +76,8 @@ font-size:1.3em; color:#2c2c2c;}
 .port-tri{position:absolute; width:130px; height:130px; z-index:9999; bottom:-65px; left:47%; transform:translate(-47%,65px);transform:rotate(45deg); background-color:#f8f5fc;  border-bottom:1px solid #cfafe0; border-right:1px solid #cfafe0;}
 
 /*skills*/
-.skills{background-color:#fff; width:1920px; font-size:1rem;}
-.skill_box{width:100%; max-width:1200px; margin:0 auto 6em; }
+.skills{background-color:#fff; width:100%; font-size:1rem;}
+.skill_box{width:1200px; margin:auto;}
 .skill_title{margin:6em auto 2em;; width:14.875em;}
 .wrap{width:100%; margin:50px 0 100px 0;}
 .chart_wrap{float:left; width:14.3%; margin-left:2%; position:relative;}
@@ -85,7 +85,7 @@ font-size:1.3em; color:#2c2c2c;}
 transform:translate(-50%, -50%); text-align:center;font-size:2em; font-weight:500;}
 .chart_wrap .wrap_txt{position:absolute; width:100%; bottom:-20%; left:50%; transform:translate(-50%,20%); font-size:1.5875em; text-align:center;}
 
-.skills > :last-child{margin-right:2%;}
+/* .skills > :last-child{margin-right:2%;} */
 .skill_expl{width:100%; text-align:center;}
 .skill_expl h3{color:#212121;}
 
@@ -133,23 +133,24 @@ padding:5px 0; border-radius:10px;}
 /*Contact me*/
 .resume{width:100%; background-image:url("../images/pattern1122.png"); background-size:cover; font-size:1rem; background-position:center center;
 padding:50px 0;}
-.resu_box{width:650px; margin:auto;}
+.resu_box{width:750px; margin:auto;}
 .resu_title{width:25.3125em; margin:auto; }
 
 .resu_icon{width:100%; padding:30px 0;}
-.resu_div{width:50%; float:left;}
+.resu_div{width:33.3%; float:left;}
 
-.icon_box{width:100%; padding:10px;}
+.icon_box{width:100%; text-align:center;}
 .icon_box > img {height:40px;} 
- .icon_box > span {margin-left:20px; padding-bottom:50px; font-weight:bold;}
-
-#resu_right > div{float:right; text-align:right;}
+.icon_box > span {margin-left:5px; padding-bottom:50px;  font-weight:bold;}
 
 
+/* #resu_right > div{float:right; text-align:right;} */
 
 
 
-.resume .resu-board{ width:100%; max-width:900px; margin:0 auto; height:inherit;}
+
+
+.resume .resu-board{ width:100%; max-width:700px; margin:0 auto; height:inherit;}
 .resu-board h3{text-align:center; font-size:1.2em; font-weight:bold;}
 .boardbox{width:100%;}
 
@@ -185,14 +186,28 @@ footer{width:100%; background-color:#442852;}
 @media screen and (max-width:992px){
      html, body {font-size:14px;} 
      .top{max-width:952px;}
-     .ban2_img{max-width:892px;}
-     .port_line{max-width:892px; margin:auto;}
-     .cell_title{position:absolute; bottom:-9px; left:50%; transform:translateX(-50%,9px);
-     .skill_box{max-width:892px; }     
-     }
+     .ban2_img{max-width:792px;}
+     .port_line{max-width:792px; margin:auto;}
+     .cell_title{position:absolute; bottom:-9px; left:50%; transform:translateX(-50%,9px);}
+     .skill_box{max-width:792px; }     
+     .chart_wrap .wrap_num{font-size:1.5em; position:absolute; width:100%; top:54%; left:50%;  transform:translate(-50%, -54%); }
+     .chart_wrap .wrap_txt{font-size:1.0875em; }
+     .skill_expl h3{font-size:1rem;}
+     .ab_tri{position:absolute; width:130px; height:130px;  top:-65px; left:42.8%; transform:translate(-42.8%,65px); transform:rotate(45deg); background-color:#fff;z-index:20;
+          border-bottom:1px solid #fff; border-right:1px solid #7948a3;}
+     .ab_left >ul{max-width:450px; width:100%;}
+     .ab_left .ab_lang{max-width:450px; width:100%; }
 }
-@media screen and (max-width:768px){}
-@media screen and (max-width:480px){}
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px){
+     .gnb li{width:80px; text-align:center; }
+     .ban2_img{max-width:568px;}
+     .port_list{width:100%;overflow:hidden; }
+.port_list li{width:48.5%; margin-right:3%; float:left;}
+.port_list li:nth-child(2), .port_list li:nth-child(4), .port_list li:nth-child(6), .port_list li:nth-child(8){margin-right:0;}
+.port_list li:nth-child(1), .port_list li:nth-child(3), .port_list li:nth-child(5), .port_list li:nth-child(7){margin-right:3%;}
+.port_list li.bot{margin-bottom:0%;}
+}
+@media screen and (max-width:600px){}
+@media screen and (max-width:480px) {
      html, body {font-size:10px;} 
 }
