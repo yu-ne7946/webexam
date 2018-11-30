@@ -13,7 +13,7 @@ html,body{margin:0; padding:0; font-size: 16px; box-sizing:border-box;  font-fam
 
 
 
-div, ul, li, ol, dl, dd, dt{margin:0; padding:0; list-style:none;}
+div, ul, li, ol, dl, dd, dt,h1, h2, h3,h4, h5, p{margin:0; padding:0; list-style:none;}
 table{margin:0; padding:0; border-collapse:collapse;}
 th,td{margin:0; padding:0;}
 
