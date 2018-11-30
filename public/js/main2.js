@@ -1,18 +1,19 @@
 /**배너 베가스 */
 $('.full-banner').vegas({
     delay: 5000,
-    timer: true,
+    timer: false,
     shuffle: true,
     autoplay: true,
+    loop:true,
     firstTransition: 'fade',
     firstTransitionDuration: 1000,
     transition: 'fade',
     valign: 'bottom',
     transitionDuration: 5000,
     animation: 'random',
-    slides: [{
-            video: {
-                src: ['../images/video/Pexels Videos 5244.mp4'],
+    slides: [{src:'../images/banner/lake.jpg',
+          video: {
+                src: '../images/banner/lake.mp4',
                 loop: true,
                 mute: true
             }
@@ -24,13 +25,6 @@ $('.full-banner').vegas({
             src: '../images/banner/pyeong.jpg',
         },
 
-        {
-            video: {
-                src: ['../images/banner/lake.mp4'],
-                loop: true,
-                mute: true
-            }
-        }
     ]
 
 });
