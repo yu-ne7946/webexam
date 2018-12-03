@@ -1,16 +1,14 @@
 /**배너 베가스 */
 $('.full-banner').vegas({
-    delay: 5000,
+    delay: 3000,
     timer: false,
     shuffle: true,
     autoplay: true,
     loop:true,
-    firstTransition: 'fade',
-    firstTransitionDuration: 1000,
     transition: 'fade',
     valign: 'bottom',
-    transitionDuration: 5000,
-    animation: 'random',
+    transitionDuration: 2000,
+
     slides: [{src:'../images/banner/lake.jpg',
           video: {
                 src: '../images/banner/lake.mp4',
@@ -24,8 +22,12 @@ $('.full-banner').vegas({
         {
             src: '../images/banner/pyeong.jpg',
         },
+       
 
-    ]
+    ],
+    animation: 'keyburns',
+    animationDuration:"auto",
+    overlay: '../css/overlays/03.png'
 
 });
 
