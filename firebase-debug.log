@@ -1,24 +1,25 @@
-[debug] [2018-12-03T08:37:00.836Z] ----------------------------------------------------------------------
-[debug] [2018-12-03T08:37:00.843Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\라윤혜\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-12-03T08:37:00.843Z] CLI Version:   4.2.1
-[debug] [2018-12-03T08:37:00.844Z] Platform:      win32
-[debug] [2018-12-03T08:37:00.844Z] Node Version:  v8.12.0
-[debug] [2018-12-03T08:37:00.847Z] Time:          Mon Dec 03 2018 17:37:00 GMT+0900 (대한민국 표준시)
-[debug] [2018-12-03T08:37:00.848Z] ----------------------------------------------------------------------
+[debug] [2018-12-04T10:03:49.383Z] ----------------------------------------------------------------------
+[debug] [2018-12-04T10:03:49.388Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-12-04T10:03:49.389Z] CLI Version:   5.1.1
+[debug] [2018-12-04T10:03:49.389Z] Platform:      win32
+[debug] [2018-12-04T10:03:49.389Z] Node Version:  v8.12.0
+[debug] [2018-12-04T10:03:49.392Z] Time:          Tue Dec 04 2018 19:03:49 GMT+0900 (대한민국 표준시)
+[debug] [2018-12-04T10:03:49.392Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-12-03T08:37:00.886Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-12-03T08:37:00.889Z] > authorizing via signed-in user
-[debug] [2018-12-03T08:37:00.895Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/yune-webexam  
+[debug] [2018-12-04T10:03:49.417Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-04T10:03:49.418Z] > authorizing via signed-in user
+[debug] [2018-12-04T10:03:49.418Z] [iam] checking project yune-webexam for permissions ["firebase.projects.get"]
+[debug] [2018-12-04T10:03:49.422Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/yune-webexam:testIamPermissions  
+
+[debug] [2018-12-04T10:03:50.880Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T10:03:50.885Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/yune-webexam  
  
-[debug] [2018-12-03T08:37:02.362Z] <<< HTTP RESPONSE 200
-[debug] [2018-12-03T08:37:02.368Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/yune-webexam  
- 
-[debug] [2018-12-03T08:37:03.770Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T10:03:52.036Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from 'C:\Users\라윤혜\Desktop\fbroot\webexam'...
+[info] === Serving from 'D:\webexam'...
 [info] 
-[debug] [2018-12-03T08:37:03.777Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/818997460867/clients/_:getWebAppConfig  
+[debug] [2018-12-04T10:03:52.042Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/818997460867/clients/_:getWebAppConfig  
  
-[debug] [2018-12-03T08:37:04.768Z] <<< HTTP RESPONSE 200
-[info] i  hosting[yune-webexam]: Serving hosting files from: public
-[info] +  hosting[yune-webexam]: Local server: http://localhost:5000
+[debug] [2018-12-04T10:03:52.779Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
