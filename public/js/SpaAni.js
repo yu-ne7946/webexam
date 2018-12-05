@@ -1,5 +1,5 @@
 var SpaAni = (function(){
-    function SpaAni(_page,_elem,_gap){
+    function SpaAni(_page, _elem, _gap, _chartFn){
         var obj = this;      
         this.page = $(_page);
         this.elem = _elem;
@@ -7,6 +7,8 @@ var SpaAni = (function(){
         this.pos = [];
         this.now= 0;
         this.gap = _gap;
+        this.chartFn = null;
+        if(_chartFn) this.chartFn = _chartFn;
         
         $(window).resize(function(){
             for(var i=0; i<obj.page.length; i++){
@@ -26,8 +28,9 @@ var SpaAni = (function(){
           if(obj.scTop+obj.gap>obj.pos[i])obj.now = i;
       }
      $(obj.page[obj.now]).find(obj.elem).each(function(){
-         var cls = $(this).data("ani");
-         $(this).addClass(cls);
+        var cls = $(this).data("ani");
+        if(cls == "chart") obj.chartFn();
+        else $(this).addClass(cls);
      });
     };
     return SpaAni;

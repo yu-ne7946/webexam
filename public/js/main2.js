@@ -106,6 +106,7 @@ function resultFn(data) {
 /**포트폴리오 nav hover,click */
 
 
+$(".port_list").stop().css({"top":"5rem", "opacity":0, "display":"none"});
 $(".port_nav > li").click(function () {
    
     $(".port_list").eq(portNav).stop().animate({"top":"5rem", "opacity":0}, 500, function(){
@@ -513,10 +514,18 @@ var option = [{
 
 var chart = [];
 var ctx = $(".chart");
-ctx.each(function (i) {
-    chart[i] = new Chart($(this), {
-        type: 'doughnut',
-        data: data[i],
-        options: option[i]
-    });
-});
+var chartChk = true;
+function chartInit() {
+    if(chartChk) {
+        ctx.each(function (i) {
+            chart[i] = new Chart($(this), {
+                type: 'doughnut',
+                data: data[i],
+                options: option[i]
+            });
+        });
+        chartChk = false;
+    }
+}
+
+var spaAni = new SpaAni(".pages", ".chart_ani", 300, chartInit);

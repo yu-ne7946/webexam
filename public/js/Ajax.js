@@ -9,7 +9,7 @@ var Ajax = (function(){
 	Ajax.prototype.send = function(_fn) {
 		$.ajax({
 			url: this.file,
-			type: "post",
+			type: "get",
 			dataType: "json",
 			data: this.data,
 			success: _fn,
