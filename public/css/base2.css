@@ -25,7 +25,7 @@ a{text-decoration:none; color:inherit; }
 
 .hand{cursor: pointer;}
 .clear{clear:both;}
-.clear:after{clear:both; content:""; display:block;}
+.clear:after{clear:both; content:" "; display:block;}
 
 .img{width:100%;}
 .hover:hover{opacity:0.8;}

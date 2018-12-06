@@ -123,8 +123,8 @@ transform:translate(-50%, -50%); text-align:center;font-size:2em; font-weight:50
 .ab_title{width:20.75em; position:absolute; top:360px; left:50%; transform:translate(-50%,-280px); }
 
 
-.ab_left{width:50%;height:800px; float:left; background-color:#7948a3;}
-.ab_leftop{max-width:600px; width:100%; float:right; margin:200px auto 0; height:200px;margin-bottom:20px;}
+.ab_left{width:50%;height:800px; float:left; background-color:#7948a3; }
+.ab_leftop{max-width:600px; width:100%; float:right; margin:200px auto 0; margin-bottom:20px;}
 .ab_left >ul> li{float:left; width:50%; text-align:center;}
 .ab_lf_title{font-weight:400;font-size:1.75em;}
 .ab_lf_cont{font-size:1.2em;}
@@ -132,16 +132,15 @@ transform:translate(-50%, -50%); text-align:center;font-size:2em; font-weight:50
 .span{line-height:24px;}
 .span__ span{display:block;}
 .ab_eng{padding-bottom:10px;}
-.ab_lang{height:200px; max-width:600px;width:100%; float:right; margin:auto;}
+.ab_lang{max-width:600px;width:100%; float:right;}
 .ab_lang >p{text-align:center; font-weight:400; font-size:1.75em; margin:20px 0;}
 .ab_lang >ul{float:left; width:50%;}
 .ab_lang > ul > li{text-align:center;}
 
 .ab_right{width:50%; height:800px;float:left; background-image:url("../images/meme.jpg"); background-repeat:no-repeat;  background-size:cover; background-position:center top;}
 
-.down_bt{width:inherit; margin: 0 auto; border:1px solid red;}
-.down_bt button{ width:100%; background-color:#c18aff; color:#fff; 
-padding:5px 0; border-radius:10px;}
+.down_bt{width:100%; margin: 100px auto;text-align:center; float:right;}
+.down_bt button{ width:50%; background-color:#c18aff; color:#fff; padding:5px 0; border-radius:10px; display:inline-block; margin-left:25%;}
 
 
 /*Contact me*/
@@ -255,7 +254,7 @@ margin-bottom:8%;
 .ab_right{height:100%;}
 .ab_tri{top:-4.0625rem; left:41.5%; transform:translate(-41.5%,4.0625rem); transform:rotate(45deg); }
 .down_bt{width:10.25rem; position:absolute; bottom:1.2rem; left:50%; transform:translate(-50%, -1.2rem);}
-.down_bt >#down_resu {font-size:0.3rem;}
+.down_bt > #down_resu {font-size:0.3rem;}
 
 .resu_box{ width:90%;}
 
