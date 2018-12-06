@@ -45,7 +45,7 @@ background-color:rgba(0,0,0,0.5); margin:auto; padding:3px 0;}
 
 .port_line .port_title{width:21.875rem; margin:auto; padding:10px 0;}
 
-.port_nav{width:100%; margin:0 auto 20px;}
+.port_nav{width:100%; margin:15px auto 45px;}
 .port_nav li{float:left; width:15%; margin-right:2%; text-align:center; padding:0;cursor:pointer; position:relative;}
 .port_nav li:last-child{margin-right:0;}
 .port_nav .nav_line{width:0%; height:1.5px; position:absolute;
@@ -54,7 +54,7 @@ background-color:#bd80f2; bottom:-2px;}
 
 
 .port_list_box{position:relative; width:100%;}
-.port_list_box:before{content:""; display:block; padding-top:90%;}
+.port_list_box:before{content:""; display:block; padding-top:102%;}
 .port_list{width:100%; position:absolute; z-index:25; height:100%; top:0;  display:none;}
 .port_list li{width:31.33%; margin-right:3%; float:left;}
 .port_list li:nth-child(3), .port_list li:nth-child(6), .port_list li:nth-child(9){margin-right:0;}
@@ -82,10 +82,10 @@ font-size:1.3em; color:#2c2c2c; }
 .center{text-align:center;}
 .left{text-align:left; padding-left:10px;}
 
-.port_bt{ position:absolute; bottom:1%; left:50%; transform:translate(-50%,-1%); z-index:15;}
+.port_bt{ position:absolute; bottom:6%; left:50%; transform:translate(-50%,-6%); z-index:15;}
 .port_bt .fa{color:#7948a3; font-size:18px; margin-right:10px; cursor:pointer;}
 .port_bt .fa:last-child{ margin-right:0;}
-.port-tri{position:absolute; width:8.125rem; height:8.125rem; z-index:10; bottom:-4.15rem; left:45%; transform:translate(-47%,4.15rem);transform:rotate(45deg); background-color:#f8f5fc;  border-bottom:1px solid #cfafe0; border-right:1px solid #cfafe0;}
+.port-tri{position:absolute; width:8.125rem; height:8.125rem; z-index:10; bottom:-4.15rem; left:46.5%; transform:translate(-46.5%,4.15rem);transform:rotate(45deg); background-color:#f8f5fc;  border-bottom:1px solid #cfafe0; border-right:1px solid #cfafe0;}
 
 /*skills*/
 .skills{background-color:#fff; width:100%; font-size:1rem;}
@@ -139,7 +139,7 @@ transform:translate(-50%, -50%); text-align:center;font-size:2em; font-weight:50
 
 .ab_right{width:50%; height:800px;float:left; background-image:url("../images/meme.jpg"); background-repeat:no-repeat;  background-size:cover; background-position:center top;}
 
-.down_bt{width:11.25rem; position:absolute; bottom:0.625rem; left:50%; transform:translate(-50%, -0.625rem);}
+.down_bt{width:inherit; margin: 0 auto; border:1px solid red;}
 .down_bt button{ width:100%; background-color:#c18aff; color:#fff; 
 padding:5px 0; border-radius:10px;}
 
