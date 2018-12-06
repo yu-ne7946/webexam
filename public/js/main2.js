@@ -16,13 +16,7 @@ $('.full-banner').vegas({
                 mute: true
             }
         },
-        {
-            src: '../images/banner/banf.jpg'
-        },
-        {
-            src: '../images/banner/pyeong.jpg',
-        },
-       
+     
 
     ],
     animation: 'keyburns',

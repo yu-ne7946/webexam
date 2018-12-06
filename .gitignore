@@ -10,3 +10,5 @@
 .runtimeconfig.json
 .firebase/
 *.psd
+*.log
+*.hwp
