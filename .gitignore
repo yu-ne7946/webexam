@@ -10,9 +10,5 @@
 .runtimeconfig.json
 .firebase/
 *.psd
-<<<<<<< HEAD
 *.log
 *.hwp
-=======
-*.hwp
->>>>>>> 3432e1e7b85481516f90791ee5962e57f0951ef7
