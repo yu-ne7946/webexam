@@ -1,4 +1,5 @@
 /**배너 베가스 */
+
 $('.full-banner').vegas({
     delay: 3000,
     timer: false,
@@ -9,20 +10,31 @@ $('.full-banner').vegas({
     valign: 'bottom',
     transitionDuration: 2000,
 
-    slides: [{src:'../images/banner/lake.jpg',
-          video: {
+    slides: [
+        {
+            src:'../images/banner/lake.jpg',
+            video: {
                 src: '../images/banner/lake.mp4',
                 loop: true,
                 mute: true
             }
         },
-     
-
+        {
+            src:'../images/banner/lake.jpg',
+            video: {
+                src: '../images/banner/lake.mp4',
+                loop: true,
+                mute: true
+            }
+        },
     ],
     animation: 'keyburns',
     animationDuration:"auto",
-    overlay: '../css/overlays/03.png'
-
+    overlay: '../css/overlays/03.png',
+    walk: function (i, slideSettings) {
+        $(".main-content").fadeOut(100);
+        $(".main-content").eq(i).fadeIn(100);
+    }
 });
 
 
