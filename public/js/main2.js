@@ -19,14 +19,12 @@ $('.full-banner').vegas({
                 mute: true
             }
         },
-        {
-            src:'../images/banner/lake.jpg',
-            video: {
-                src: '../images/banner/lake.mp4',
-                loop: true,
-                mute: true
-            }
-        },
+        {  src:'../images/banner/business.jpg'},
+        {  src:'../images/banner/media.jpg'},
+        {  src:'../images/banner/Canada2.jpg'},
+        {  src:'../images/banner/franchise2.jpg'},
+        {  src:'../images/banner/business.jpg'},
+        {  src:'../images/banner/webp.jpg'}
     ],
     animation: 'keyburns',
     animationDuration:"auto",
