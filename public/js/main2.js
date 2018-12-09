@@ -1,13 +1,13 @@
 /**배너 베가스 */
 
 $('.full-banner').vegas({
-    delay: 3000,
+    delay: 4000,
     timer: false,
-    shuffle: true,
+    shuffle: false,
     autoplay: true,
     loop:true,
     transition: 'fade',
-    valign: 'bottom',
+    valign: 'center',
     transitionDuration: 2000,
 
     slides: [
@@ -23,12 +23,11 @@ $('.full-banner').vegas({
         {  src:'../images/banner/media.jpg'},
         {  src:'../images/banner/Canada2.jpg'},
         {  src:'../images/banner/franchise2.jpg'},
-        {  src:'../images/banner/business.jpg'},
         {  src:'../images/banner/webp.jpg'}
     ],
     animation: 'keyburns',
     animationDuration:"auto",
-    overlay: '../css/overlays/03.png',
+    overlay: '../css/overlays/06.png',
     walk: function (i, slideSettings) {
         $(".main-content").fadeOut(100);
         $(".main-content").eq(i).fadeIn(100);
