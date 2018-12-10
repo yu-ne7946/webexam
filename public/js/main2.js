@@ -45,7 +45,7 @@ $('.full-banner').vegas({
         {  src:'../images/banner/business.jpg'},
         {  src:'../images/banner/media.jpg'},
         {  src:'../images/banner/Canada2.jpg'},
-        {  src:'../images/banner/franchise2.jpg'},
+        {  src:'../images/banner/job_search.jpg'},
         {  src:'../images/banner/webp.jpg'}
     ],
     animation: 'kenburns',
@@ -56,6 +56,31 @@ $('.full-banner').vegas({
         $(".main-content").eq(i).fadeIn(100);
     }
 });
+
+/**************************/
+/**quote animation  */
+/**************************/
+// Wrap every letter in a span
+$('.ml3').each(function(){
+    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+  });
+  
+  anime.timeline({loop: true})
+    .add({
+      targets: '.ml3 .letter',
+      opacity: [0,1],
+      easing: "easeInOutQuad",
+      duration: 500,
+      delay: function(el, i) {
+        return 150 * (i+1)
+      }
+    }).add({
+      targets: '.ml3',
+      opacity: 0,
+      duration: 1000,
+      easing: "easeOutExpo",
+      delay: 1000
+    });
 
 
 /**mobile nav*/

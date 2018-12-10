@@ -23,7 +23,7 @@ section{font-size:1rem;}
 .full-banner{width:100%; height:100%;  position:absolute; top:0; left:0; overflow:hidden; z-index:11;}
 /* .fullscreen-video > video {width:100%; min-height:100%;} */
 /* .header-overlay{background-color:rgba(0,121,156,0.7); top:0; left:0; z-index:111;} */
-.main-content{width:46.25rem; position:absolute;
+.main-content{width:50rem; position:absolute;
      top:50%; left:50%; transform:translate(-50%,-50%); z-index:22; text-align:center; display:none;}
 #main_core h1{font-size:5.625rem; color:#fff;}
 #main_core .te_block{display:block; font-weight:normal;}
@@ -31,8 +31,8 @@ section{font-size:1rem;}
 #main_core  h5{width:37.5rem; font-size:1.75em; font-family: 'Ubuntu', sans-serif;  font-weight:400; color:#fff; /* transform:translateX(110%); */
 background-color:rgba(0,0,0,0.5); margin:auto; padding:3px 0;}
 
-#main_sub{ color:#fff; background-color:rgba(0,0,0,0.7); }
-#main_sub h1{font-size:3rem; font-family: 'Ubuntu', sans-serif;  font-weight:400;}
+#main_sub{ color:#fff; background-color:rgba(0,0,0,0.5);  padding:1%;  }
+#main_sub h1{font-size:5rem; font-family: 'Ubuntu', sans-serif;  font-weight:400;}
 #main_sub .sub_bold{font-weight:bold;}
 #main_sub .sub_block{display:block;}
 #main_sub_core h1{font-size:4.5rem;color:#fff; background-color:rgba(0,0,0,0.7); font-family: 'Ubuntu', sans-serif; font-weight:400;}
@@ -40,10 +40,12 @@ background-color:rgba(0,0,0,0.5); margin:auto; padding:3px 0;}
 #main_sub_core .sub_block{display:block;}
 
 /* midbanner */
-.banner_2{width:100%; padding:5em 0; background-color:#fff;}
+.banner_2{width:100%; padding:5em 0; background-image:url("../images/banner/line-note2.jpg"); background-repeat:repeat; }
 .ban2_img{width:100%; max-width:900px; margin: auto;}
+.ml3{font-size:3rem; font-family: 'Courgette', cursive; color:#101010}
+.qu_right{text-align:right; font-size:2rem; color:#333;}
 /* .ban2_img img{display:block;} */
-.banner_2 span{float:right;}
+
 
 /*port*/
 .port{width:100%; background-color:#f8f5fc; font-size:1rem; position:relative;  border-bottom:1px solid #cfafe0; }
