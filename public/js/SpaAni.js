@@ -14,12 +14,12 @@ var SpaAni = (function(){
             for(var i=0; i<obj.page.length; i++){
                 obj.pos[i] = $(obj.page[i]).position().top;
                 }
-                console.log(obj.pos);/*현재페이지가 위로부터 얼마나 떨어져 있는지 . 3개의 값 */
+                //console.log(obj.pos);/*현재페이지가 위로부터 얼마나 떨어져 있는지 . 3개의 값 */
         }).trigger("resize");
         $(window).scroll(function(){
         obj.scTop = $(this).scrollTop();
         obj.init(obj);
-        console.log(obj.scTop);
+        //console.log(obj.scTop);
         }).trigger("scroll");
         
     }

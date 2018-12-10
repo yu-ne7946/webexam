@@ -52,8 +52,8 @@ background-color:rgba(0,0,0,0.5); margin:auto; padding:3px 0;}
 
 .port_line .port_title{width:21.875rem; margin:auto; padding:10px 0;}
 
-.port_nav{width:100%; margin:15px auto 45px;}
-.port_nav li{float:left; width:15%; margin-right:2%; text-align:center; padding:0;cursor:pointer; position:relative;}
+.port_nav{width:100%; margin:15px auto 45px; text-align:center;}
+.port_nav li{display:inline-block; margin:0 2%; text-align:center; padding:0; cursor:pointer; position:relative;}
 .port_nav li:last-child{margin-right:0;}
 .port_nav .nav_line{width:0%; height:1.5px; position:absolute;
 background-color:#bd80f2; bottom:-2px;}

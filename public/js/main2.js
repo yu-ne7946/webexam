@@ -1,3 +1,26 @@
+
+/** 메인 네비게이션 분기 **/
+var pages = [];
+var now = 0;
+$(window).resize(function(){
+    $(".pages").each(function(i){
+        pages[i] = $(this).position().top;
+    });
+}).trigger("resize");
+
+$(".gnb").children("li").click(function(){
+    now = $(this).index();
+    $("html, body").stop().animate({"scrollTop":pages[now]+"px"}, 300);
+});
+
+$(".gnb_sub").children("li").click(function(){
+    now = $(this).index();
+    $("html, body").stop().animate({"scrollTop":pages[now]+"px"}, 300, function(){
+        $(".gnb_sub").stop().slideUp(100);
+    });
+});
+
+
 /**배너 베가스 */
 
 $('.full-banner').vegas({
@@ -25,7 +48,7 @@ $('.full-banner').vegas({
         {  src:'../images/banner/franchise2.jpg'},
         {  src:'../images/banner/webp.jpg'}
     ],
-    animation: 'keyburns',
+    animation: 'kenburns',
     animationDuration:"auto",
     overlay: '../css/overlays/06.png',
     walk: function (i, slideSettings) {
@@ -78,7 +101,7 @@ var portNav ;
 
 
 function resultFn(data) {
-    console.log(data);
+    //console.log(data);
     var html = '';
     var li;
     for (var i = 0; i < data.result.length; i++) {
@@ -181,27 +204,27 @@ $(".pt_box").hover(function () {
         $(this).css({
             "color": "#000",
             "background-color": "transparent"
-        })
-    })
-
-}, function () {
-    $(this).find(".pt_black").stop().animate({
-        "top": "40%",
-        "height": "20%"
-    }, 400);
-    $(this).find(".pt_border").stop().animate({
-        "width": "95%",
-        "height": "60%",
-        "margin": "3% auto 2%"
-    }, 400);
-    $(this).find(".cell_title").css({
-        "bottom": "0.2rem",
-        "font-size": "1.3em"
+        });
     });
-    $(this).find(".pt_cell h2").css("display", "none");
-    $(this).find(".pt_cell p").css("display", "none");
-    $(this).find(".detail").css("display", "none");
-});
+
+    }, function () {
+        $(this).find(".pt_black").stop().animate({
+            "top": "40%",
+            "height": "20%"
+        }, 400);
+        $(this).find(".pt_border").stop().animate({
+            "width": "95%",
+            "height": "60%",
+            "margin": "3% auto 2%"
+        }, 400);
+        $(this).find(".cell_title").css({
+            "bottom": "0.2rem",
+            "font-size": "1.3em"
+        });
+        $(this).find(".pt_cell h2").css("display", "none");
+        $(this).find(".pt_cell p").css("display", "none");
+        $(this).find(".detail").css("display", "none");
+    });
 }
 
 
