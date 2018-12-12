@@ -139,10 +139,10 @@ function resultFn(data) {
             html += '<div class="pt_black">';
             html += '<div class="pt_border">';
             html += '<div class="pt_table">';
-            html += '<div class="pt_cell right">';
+            html += '<div class="pt_cell">';
             html += '<h2>'+li.ho_title[0]+'<br/>'+li.ho_title[1]+'</h2>';
             html += '<p>'+li.cont[0]+'<span>'+li.cont[1]+'</span> </p>';
-            html += '<p class="detail">자세히</p>';
+            // html += '<p class="detail">자세히</p>';
             html += '<h3 class="cell_title">'+li.title+'</h3>';
             html += '</div>';
             html += '</div>';
@@ -214,13 +214,13 @@ $(".pt_box").hover(function () {
         "margin": "2% auto 1%"
     }, 400);
     $(this).find(".cell_title").css({
-        "bottom": "-0.2rem",
+        "bottom": "2%",
         "font-size": "0.9em"
     });
     $(this).find(".pt_cell h2").css("display", "block");
     $(this).find(".pt_cell p").css("display", "block");
-    $(this).find(".detail").css("display", "block");
-    $(".detail").hover(function () {
+    // $(this).find(".detail").css("display", "block");
+/*     $(".detail").hover(function () {
         $(this).css({
             "color": "#fff",
             "background-color": "#bd80f2"
@@ -230,7 +230,7 @@ $(".pt_box").hover(function () {
             "color": "#000",
             "background-color": "transparent"
         });
-    });
+    }); */
 
     }, function () {
         $(this).find(".pt_black").stop().animate({
@@ -243,12 +243,12 @@ $(".pt_box").hover(function () {
             "margin": "3% auto 2%"
         }, 400);
         $(this).find(".cell_title").css({
-            "bottom": "0.2rem",
+            "bottom": "14%",
             "font-size": "1.3em"
         });
         $(this).find(".pt_cell h2").css("display", "none");
         $(this).find(".pt_cell p").css("display", "none");
-        $(this).find(".detail").css("display", "none");
+        // $(this).find(".detail").css("display", "none");
     });
 }
 
