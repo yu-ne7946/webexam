@@ -1,0 +1,21 @@
+body{background-color:rgb(184, 174, 201); font-size:1rem;}
+.wrap{width:100%; max-width:1200px; background-color:#fff;  margin:auto;box-shadow: 0 0 8px rgba(0,0,0,0.5); padding:0.5%;}
+
+.wrap_logo{width:15%; }
+
+.wrap_title{width:80%; margin:auto; text-align:center;}
+.wrap_title h1{text-align:center; color:#101010; padding-bottom:0.5em;
+font-size:3em;}
+.wrap_title h3{color:#333; line-height:1.3em; padding-bottom:0.5em;}
+.wrap_title h3 span{display:block;}
+.wrap_titie p{text-decoration:underline;}
+
+
+.wrap_box{padding:5% 0;}
+.imgbox{width:60%; box-sizing: border-box; margin-right:1%;float:left;}
+.txtbox{width:39%; box-sizing:border-box;text-align:center; box-sizing: border-box;
+    float:left; } 
+
+.fir_image{  }
+.fir_txt{  }
+

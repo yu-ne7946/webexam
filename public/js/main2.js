@@ -207,6 +207,7 @@ function resultFn(data) {
     for (var j = stPage; j < forEnd; j++) {
         li = data.result[portNum].data[j];
         html += '<li class="bot bot768">';
+        html += '<a href="'+li.address+'">';
         html += '<div class="pt_box">';
         html += '<img src="'+li.img+'" class="img">';
         html += '<div class="pt_black">';
@@ -222,6 +223,7 @@ function resultFn(data) {
         html += '</div>';
         html += '</div>';
         html += '</div>';
+        html += '</a>';
         html += '</li>';
     }
     html += '</ul>';
@@ -339,7 +341,7 @@ var key = '';
 
 
 /**구글로그인 */
-$(".head_but .login").on("click", function () {
+$(".login").on("click", function () {
     auth.signInWithPopup(googleAuth);
     // auth.signInWithRedirect(googleAuth);
 });
