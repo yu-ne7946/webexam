@@ -18,6 +18,8 @@ div, ul, li, ol, dl, dd, dt,h1, h2, h3,h4, h5, p{margin:0; padding:0; list-style
 table{margin:0; padding:0; border-collapse:collapse;}
 th,td{margin:0; padding:0;}
 
+img {vertical-align:bottom;}
+
 .te{font-family: 'Roboto', sans-serif;}
 /* .section{font-size:10vh; width:200px; height:200px; } */
 a{text-decoration:none; color:inherit; }

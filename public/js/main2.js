@@ -131,7 +131,6 @@ $(".fa-bars").click(function () {
     }
  */
 var port = new Ajax("../json/port.json");
-var portNav ;
 var nowPage = 1;
 var divPage = 9;
 if(isMobile) divPage = 6;
@@ -268,7 +267,7 @@ $(".pt_box").hover(function () {
         "margin": "2% auto 1%"
     }, 400);
     $(this).find(".cell_title").css({
-        "bottom": "2%",
+        "top": "90%",
         "font-size": "0.9em"
     });
     $(this).find(".pt_cell h2").css("display", "block");
@@ -297,7 +296,7 @@ $(".pt_box").hover(function () {
             "margin": "3% auto 2%"
         }, 400);
         $(this).find(".cell_title").css({
-            "bottom": "14%",
+            "top": "50%",
             "font-size": "1.3em"
         });
         $(this).find(".pt_cell h2").css("display", "none");
