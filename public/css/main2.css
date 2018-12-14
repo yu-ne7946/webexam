@@ -127,14 +127,14 @@ transform:translate(-50%, -50%); text-align:center;font-size:2em; font-weight:50
 
 
 /**ABOUT ME*/
-.about{width:100%; min-height:100%; max-width:1920px;  position:relative; margin:100px auto 0; font-size:1rem; color:#fff; background-image:url("../images/meme.jpg"); background-repeat:no-repeat;  background-size:cover; background-position:100% top;}
+.about{width:100%;  max-width:1920px;  position:relative; margin:100px auto 0; font-size:1rem; color:#fff; background-image:url("../images/meme.jpg"); background-repeat:no-repeat;  background-size:cover; background-position:100% top;}
 .ab_tri{position:absolute; width:8.125rem; height:8.125rem;  top:-6rem; left:50%; transform:rotate(45deg); background-color:#fff;z-index:20;
      border-bottom:1px solid #fff; border-right:1px solid #7948a3; transform-origin:left top;}
 .ab_title{width:20.75em; position:absolute; top:100px; left:50%; transform:translateX(-50%); }
 
 
 .ab_left{width:50%; min-height:100%; float:left; background-color:#7948a3; }
-.ab_left_box{width:100%;float:right;}
+.ab_left_box{width:60%; margin:auto;}
 .ab_leftop{width:100%; margin:200px auto 0; margin-bottom:20px;}
 .ab_leftop >li{float:left; width:50%; text-align:center;}
 .ab_lf_title{font-weight:400;font-size:1.75em;}
@@ -142,14 +142,17 @@ transform:translate(-50%, -50%); text-align:center;font-size:2em; font-weight:50
 .ab_mar{margin-bottom:30px;}
 
 .span__ span{display:block;}
-.ab_eng{padding-bottom:10px;}
-.ab_lang{width:100%;}
-.ab_lang >p{text-align:center; font-weight:400; font-size:1.75em; margin:20px 0;}
+
+.ab_lang{width:100%; padding-top:2%;}
+.ab_lang >p{text-align:center; font-weight:400; font-size:1.75em; margin:1% 0 5%;}
 .ab_lang >ul{float:left; width:50%;}
-.ab_lang > ul > li{text-align:center;}
+.ab_lang >ul > li{text-align:center;}
+.ab_lang img{display:block; margin:0 auto 1%;}
+.eng_detail li:not(:first-child){padding:1% 0;}
+.eng_score{font-size:0.9em;}
 
 .down_bt{width:100%; margin:100px 0;}
-.down_bt button{ width:90%; background-color:#c18aff; color:#fff; padding:5px 0; border-radius:10px; display:block; margin:0 auto;}
+.down_bt button{ width:60%; background-color:#c18aff; color:#fff; padding:5px 0; border-radius:10px; display:block; margin:0 auto;}
 
 .ab_right{width:50%; min-height:100%; float:left;}
 

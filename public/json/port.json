@@ -89,7 +89,7 @@
     {"img": "../images/p-data.jpg",
         "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
         "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "address":"http://www.naver.com",
+        "address":"../main/index_puppy.html",
         "target":"link",
         "title":"합성 - 미어캣"}]},
 {"title":"DESIGN ARTWORK","data":[
