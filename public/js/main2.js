@@ -207,7 +207,8 @@ function resultFn(data) {
     for (var j = stPage; j < forEnd; j++) {
         li = data.result[portNum].data[j];
         html += '<li class="bot bot768">';
-        html += '<a href="'+li.address+'">';
+        if(li.target == "modal") html += '<a onclick="modalOpen(this);" data-modal="'+li.address+'">';
+        else if(li.target == "link") html += '<a href="'+li.address+'" target="_blank">';
         html += '<div class="pt_box">';
         html += '<img src="'+li.img+'" class="img">';
         html += '<div class="pt_black">';
@@ -223,7 +224,8 @@ function resultFn(data) {
         html += '</div>';
         html += '</div>';
         html += '</div>';
-        html += '</a>';
+        if(li.target == "modal") html += '</a>';
+        else if(li.target == "link") html += '</a>';
         html += '</li>';
     }
     html += '</ul>';
@@ -307,10 +309,23 @@ $(".pt_box").hover(function () {
     });
 }
 
+function modalOpen(obj) {
+    console.log("떠라");
+    var src = $(obj).data("modal");
+    $(".modal_cont").children("img").attr("src", src);
+    $(".modal_wrap").css({"display":"table"});
+    /* $(".modal_cont").css({"margin-top":"200px", "opacity":0});
+    $(".modal_cont").stop().animate({"margin-top":0, "opacity":1}, 200); */
+}
+
+function modalClose() {
+    $(".modal_wrap").css({"display":"none"});
+}
 
 
-
-
+$(".modal_wrap, .modal_cont").on('mousewheel DOMMouseScroll', function(e){
+    window.event.stopPropagation();
+});
 
 
 
