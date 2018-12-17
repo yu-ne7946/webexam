@@ -118,18 +118,7 @@ $(window).scroll(function () {
 $(".fa-bars").click(function () {
     $(".gnb_sub").stop().slideToggle(100);
 });
-/* Ajax 구조 
-{"result":[
-    {"title":"best","data":[{},{}]},
-    {"title":"","data":[{},{}]},
-    {"title":"","data":[{},{}]},
-    {"title":"","data":[{},{}]},
-    {"title":"","data":[{},{}]},
-    {"title":"","data":[{},{}]}
-    
-    ]
-    }
- */
+
 var port = new Ajax("../json/port.json");
 var nowPage = 1;
 var divPage = 9;
@@ -159,7 +148,7 @@ $(".port_nav > li").click(function(){
 });
 $(".port_nav > li").eq(0).trigger("click");
 
-$(".port_nav > li").hover(function () {
+$(".port_nav >li").mouseenter(function(){
     if ($(this).index() != portNum) {
         $(this).css({
             "color": "#222"
@@ -168,7 +157,9 @@ $(".port_nav > li").hover(function () {
             "width": "100%"
         }, 100)
     }
-}, function () {
+});
+
+$(".port_nav >li").mouseleave(function(){
     if ($(this).index() != portNum) {
         $(this).css({
             "color": "#666"
@@ -177,15 +168,14 @@ $(".port_nav > li").hover(function () {
             "width": "0"
         }), 100
     }
-});
+})
 
 
 function resultFn(data) {
     //console.log(data);
     var html = '';
     var li;
-    var forEnd = 0;
-    
+    var forEnd = 0;    
     $(".port_bt").empty();
     for(var i=0; i<Math.ceil(data.result[portNum].data.length/divPage); i++){
         html += '<i class="fa fa-circle" aria-hidden="true"></i>';
@@ -257,10 +247,10 @@ $(".port_nav > li").click(function () {
 */
 
 
-
-
 /**포트폴리오 박스들 */
-$(".pt_box").hover(function () {
+
+
+$(".pt_box").mouseenter(function(){
     $(this).find(".pt_black").stop().animate({
         "top": "0%",
         "height": "100%"
@@ -276,38 +266,27 @@ $(".pt_box").hover(function () {
     });
     $(this).find(".pt_cell h2").css("display", "block");
     $(this).find(".pt_cell p").css("display", "block");
-    // $(this).find(".detail").css("display", "block");
-/*     $(".detail").hover(function () {
-        $(this).css({
-            "color": "#fff",
-            "background-color": "#bd80f2"
-        })
-    }, function () {
-        $(this).css({
-            "color": "#000",
-            "background-color": "transparent"
-        });
-    }); */
+});
 
-    }, function () {
-        $(this).find(".pt_black").stop().animate({
-            "top": "40%",
-            "height": "20%"
-        }, 400);
-        $(this).find(".pt_border").stop().animate({
-            "width": "95%",
-            "height": "60%",
-            "margin": "3% auto 2%"
-        }, 400);
-        $(this).find(".cell_title").css({
-            "top": "50%",
-            "font-size": "1.3em"
-        });
-        $(this).find(".pt_cell h2").css("display", "none");
-        $(this).find(".pt_cell p").css("display", "none");
-        // $(this).find(".detail").css("display", "none");
+
+$(".pt_box").mouseleave(function(){
+    $(this).find(".pt_black").stop().animate({
+        "top": "40%",
+        "height": "20%"
+    }, 400);
+    $(this).find(".pt_border").stop().animate({
+        "width": "95%",
+        "height": "60%",
+        "margin": "3% auto 2%"
+    }, 400);
+    $(this).find(".cell_title").css({
+        "top": "50%",
+        "font-size": "1.3em"
     });
-}
+    $(this).find(".pt_cell h2").css("display", "none");
+    $(this).find(".pt_cell p").css("display", "none");
+})
+};
 
 function modalOpen(obj) {
     console.log("떠라");

@@ -1,115 +1,339 @@
-{"result":[
-{"title":"ALL","data":[
-    {"img": "../images/p1.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "address":"../images/click_img/meerkat.jpg",
-        "target":"modal",
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p2.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "address":"../images/p1.jpg",
-        "target":"modal",
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p3.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p4.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p5.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p6.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p7.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p8.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p9.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-        {"img": "../images/p9.jpg",
-            "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-            "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-            "title":"합성 - 미어캣"},
-            {"img": "../images/p9.jpg",
-                "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-                "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-                "title":"합성 - 미어캣"},
-                {"img": "../images/p9.jpg",
-                    "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
+{
+    "result": [{
+            "title": "ALL",
+            "data": [{
+                    "img": "../images/p1.jpg",
+                    "ho_title": ["인절미빙수&미어캣", "콜라보레이션"],
                     "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-                    "title":"합성 - 미어캣"}]},
-{"title":"FIXED WEB","data":[
-    {"img": "../images/p-data.jpg",
-        "ho_title": ["성이시돌 목장우유","리뉴얼페이지"],
-        "cont": ["클라우드 (맥주) 사이트를 활용해", "성이시돌 목장우유 페이지를 만들었습니다"],
-        "title":"합성-미어캣"},
-    {"img": "../images/p4.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성-미어캣"}]},
-{"title":"RESPONSIVE WEB","data":[
-    {"img": "../images/p5.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "address":"#",
-        "target":"link",
-        "title":"합성-미어캣"},
-    {"img": "../images/p6.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성-미어캣"}]},
-{"title":"BOOTSTRAP","data":[
-    {"img": "../images/p1.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성-미어캣"},
-    {"img": "../images/p-data.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성-미어캣"}]},
-{"title":"DATABASE","data":[
-    {"img": "../images/p1.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p-data.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "address":"../main/index_puppy.html",
-        "target":"link",
-        "title":"합성 - 미어캣"}]},
-{"title":"DESIGN ARTWORK","data":[
-    {"img": "../images/p1.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p2.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p3.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"},
-    {"img": "../images/p4.jpg",
-        "ho_title": ["인절미빙수&미어캣","콜라보레이션"],
-        "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
-        "title":"합성 - 미어캣"}
-  ]}
+                    "address": "../images/click_img/meerkat.jpg",
+                    "target": "modal",
+                    "title": "디자인-합성"
+                },
+                {
+                    "img": "../images/p2.jpg",
+                    "ho_title": ["나의 라임오렌지나무", "정신과"],
+                    "cont": ["소설 속 라임오렌지나무를 ", "활용한 리뉴얼 웹사이트입니다"],
+                    "address": "../images/click_img/orange.jpg",
+                    "target": "modal",
+                    "title": "디자인-리뉴얼웹사이트"
+                },
+                {
+                    "img": "../images/p5.jpg",
+                    "ho_title": ["성이시돌목장", "클라우드 디자인"],
+                    "cont": ["제주도의 성이시돌목장 페이지를", "클라우드(맥주) 디자인을 참고해 만들었습니다"],
+                    "address": "../main/index_puppy.html",
+                    "target": "link",
+                    "title": "웹사이트-성이시돌목장"
+                },
+                {
+                    "img": "../images/p3.jpg",
+                    "ho_title": ["저스톡&그루트", "콜라보레이션"],
+                    "cont": ["전화영어 사이트 '저스톡'의 팝업을", "캐릭터 그루트를 활용해 만들었습니다.  "],
+                    "address": "../images/click_img/popup.jpg",
+                    "target": "modal",
+                    "title": "디자인-팝업"
+                },
+                {
+                    "img": "../images/p4.jpg",
+                    "ho_title": ["전화영어 사이트 '저스톡'", "리뉴얼 웹사이트"],
+                    "cont": ["전화영어사이트 '저스톡'을 ", "더 단순하고 세련된 디자인으로 만들었습니다"],
+                    "address": "../main/index_puppy.html",
+                    "target": "link",
+                    "title": "웹사이트-저스톡"
+                },
+                {
+                    "img": "../images/p6.jpg",
+                    "ho_title": ["레이첼 맥아담스", "메이크업"],
+                    "cont": ["포토샵 툴로 레이첼 맥아담스의", "메이크업을 수정한 작품입니다."],
+                    "address": "../images/click_img/rachel.jpg",
+                    "target": "modal",
+                    "title": "디자인-포토샵 화장"
+                },
+                {
+                    "img": "../images/p7.jpg",
+                    "ho_title": ["라라랜드 & 고양이", "콜라보레이션"],
+                    "cont": ["귀여운 고양이 커플과", "라라랜드를 콜라보한 작품입니다."],
+                    "address": "../images/click_img/lalaland.jpg",
+                    "target": "modal",
+                    "title": "디자인-일러스트"
+                },
+                {
+                    "img": "../images/p8.jpg",
+                    "ho_title": ["강아지대통령", "팝업디자인"],
+                    "cont": ["강아지 쇼핑몰의 ", "팝업 디자인을 만들어봤습니다."],
+                    "address": "../images/click_img/puppy.jpg",
+                    "target": "modal",
+                    "title": "디자인-팝업"
+                },
+                {
+                    "img": "../images/p9.jpg",
+                    "ho_title": ["코이카", "리뉴얼웹사이트"],
+                    "cont": ["한국국제협력단 코이카", "리뉴얼웹사이트입니다."],
+                    "address": "../main/index_puppy.html",
+                    "target": "link",
+                    "title": "웹사이트-코이카"
+                },
+                {
+                    "img": "../images/p_pooh.jpg",
+                    "ho_title": ["곰돌이푸", "텍스트 채우기"],
+                    "cont": ["귀여운 곰돌이푸를", "글자로 채색했습니다"],
+                    "address": "../images/click_img/pooh.jpg",
+                    "target": "modal",
+                    "title": "디자인-포토샵"
+                },
+                {
+                    "img": "../images/p_santa.jpg",
+                    "ho_title": ["크리스마스", "카드만들기"],
+                    "cont": ["일러스트 그라데이션,warp 툴을 이용해", "크리스마스 카드를 만들었습니다."],
+                    "address": "../images/click_img/chirstmas.jpg",
+                    "target": "modal",
+                    "title": "디자인-카드(일러)"
+                },
+                {
+                    "img": "../images/p_groot.jpg",
+                    "ho_title": ["가디언즈 오브 갤럭시 '그루트'", "일러스트"],
+                    "cont": ["일러스트로 가디언즈오브갤럭시의 캐릭터", "그루트를 그려보았습니다"],
+                    "address": "../images/click_img/groot.jpg",
+                    "target": "modal",
+                    "title": "디자인-일러스트"
+                },
+                {
+                    "img": "../images/p_han.jpg",
+                    "ho_title": ["인물사진 ", "연필로 그린효과"],
+                    "cont": ["포토샵툴로 사진을", "연필로 그린듯한 효과로 바꿨습니다."],
+                    "address": "../images/click_img/drawing.jpg",
+                    "target": "modal",
+                    "title": "디자인-포토샵"
+                },
+                {
+                    "img": "../images/p_life.jpg",
+                    "ho_title": ["포토샵으로", "GIF작품 만들기"],
+                    "cont": ["자동차광고를 사람의 인생이라는 테마로", "GIF파일로 만들었습니다"],
+                    "address": "../images/click_img/life.gif",
+                    "target": "modal",
+                    "title": "디자인-포토샵"
+                },
+                {
+                    "img": "../images/p_ghost.jpg",
+                    "ho_title": ["거울에 비치는", "유령합성"],
+                    "cont": ["심신미약이신분들은", "눌러보지마세요"],
+                    "address": "../images/click_img/ghost.jpg",
+                    "target": "modal",
+                    "title": "디자인-합성"
+                },
+                {
+                    "img": "../images/p_logo.jpg",
+                    "ho_title": ["로고제작", "목업"],
+                    "cont": ["라우드소싱에 참가해서 제작한", "로고 디자인 및 목업입니다"],
+                    "address": "../images/click_img/logo.jpg",
+                    "target": "modal",
+                    "title": "디자인-로고(일러)"
+                },
+                {
+                    "img": "../images/p_witch.jpg",
+                    "ho_title": ["백설공주를 질투한", "마녀의 방"],
+                    "cont": ["패턴,메시 등을 활용해서", "마녀의 방을 만들었습니다."],
+                    "address": "../images/click_img/witch.jpg",
+                    "target": "modal",
+                    "title": "디자인-일러스트"
+                },
+                {
+                    "img": "../images/p_woman.jpg",
+                    "ho_title": ["비 내리는 호수", "여자"],
+                    "cont": ["비 내리는 효과를 주기 위해", "gif로 제작했습니다"],
+                    "address": "../images/click_img/women.gif",
+                    "target": "modal",
+                    "title": "디자인-포토샵"
+                },
+                {
+                    "img": "../images/p-data.jpg",
+                    "ho_title": ["강아지왕국", "리뉴얼웹사이트"],
+                    "cont": ["ajax,firebase를 사용하여", "강아지 쇼핑몰을 만들었습니다"],
+                    "address": "../main/index_puppy.html",
+                    "target": "link",
+                    "title": "웹사이트-강아지왕국"
+                }
 
-]
+
+            ]
+        },
+        {
+            "title": "FIXED WEB",
+            "data": [         {
+                "img": "../images/p5.jpg",
+                "ho_title": ["성이시돌목장", "클라우드 디자인"],
+                "cont": ["제주도의 성이시돌목장 페이지를", "클라우드(맥주) 디자인을 참고해 만들었습니다"],
+                "address": "../main/index_puppy.html",
+                "target": "link",
+                "title": "웹사이트-성이시돌목장"
+            }
+            ]
+        },
+        {
+            "title": "RESPONSIVE WEB",
+            "data": [                {
+                "img": "../images/p4.jpg",
+                "ho_title": ["전화영어 사이트 '저스톡'", "리뉴얼 웹사이트"],
+                "cont": ["전화영어사이트 '저스톡'을 ", "더 단순하고 세련된 디자인으로 만들었습니다"],
+                "address": "../main/index_puppy.html",
+                "target": "link",
+                "title": "웹사이트-저스톡"
+            }
+
+            ]
+        },
+        {
+            "title": "BOOTSTRAP",
+            "data": [                {
+                "img": "../images/p9.jpg",
+                "ho_title": ["코이카", "리뉴얼웹사이트"],
+                "cont": ["한국국제협력단 코이카", "리뉴얼웹사이트입니다."],
+                "address": "../main/index_puppy.html",
+                "target": "link",
+                "title": "웹사이트-코이카"
+            }
+
+            ]
+        },
+        {
+            "title": "DATABASE",
+            "data": [
+                {
+                    "img": "../images/p-data.jpg",
+                    "ho_title": ["강아지왕국", "리뉴얼웹사이트"],
+                    "cont": ["ajax,firebase를 사용하여", "강아지 쇼핑몰을 만들었습니다"],
+                    "address": "../main/index_puppy.html",
+                    "target": "link",
+                    "title": "웹사이트-강아지왕국"
+                }
+            ]
+        },
+        {
+            "title": "DESIGN ARTWORK",
+            "data": [
+                {
+                    "img": "../images/p1.jpg",
+                    "ho_title": ["인절미빙수&미어캣", "콜라보레이션"],
+                    "cont": ["귀여운 미어캣을 볼 수 있는 사막과", "인절미 빙수를 합성한 작품입니다."],
+                    "address": "../images/click_img/meerkat.jpg",
+                    "target": "modal",
+                    "title": "디자인-합성"
+                },
+                {
+                    "img": "../images/p2.jpg",
+                    "ho_title": ["나의 라임오렌지나무", "정신과"],
+                    "cont": ["소설 속 라임오렌지나무를 ", "활용한 리뉴얼 웹사이트입니다"],
+                    "address": "../images/click_img/orange.jpg",
+                    "target": "modal",
+                    "title": "디자인-리뉴얼웹사이트"
+                },   
+                {
+                    "img": "../images/p3.jpg",
+                    "ho_title": ["저스톡&그루트", "콜라보레이션"],
+                    "cont": ["전화영어 사이트 '저스톡'의 팝업을", "캐릭터 그루트를 활용해 만들었습니다.  "],
+                    "address": "../images/click_img/popup.jpg",
+                    "target": "modal",
+                    "title": "디자인-팝업"
+                },       
+                {
+                    "img": "../images/p6.jpg",
+                    "ho_title": ["레이첼 맥아담스", "메이크업"],
+                    "cont": ["포토샵 툴로 레이첼 맥아담스의", "메이크업을 수정한 작품입니다."],
+                    "address": "../images/click_img/rachel.jpg",
+                    "target": "modal",
+                    "title": "디자인-포토샵 화장"
+                },
+                {
+                    "img": "../images/p7.jpg",
+                    "ho_title": ["라라랜드 & 고양이", "콜라보레이션"],
+                    "cont": ["귀여운 고양이 커플과", "라라랜드를 콜라보한 작품입니다."],
+                    "address": "../images/click_img/lalaland.jpg",
+                    "target": "modal",
+                    "title": "디자인-일러스트"
+                },
+                {
+                    "img": "../images/p8.jpg",
+                    "ho_title": ["강아지대통령", "팝업디자인"],
+                    "cont": ["강아지 쇼핑몰의 ", "팝업 디자인을 만들어봤습니다."],
+                    "address": "../images/click_img/puppy.jpg",
+                    "target": "modal",
+                    "title": "디자인-팝업"
+                },
+              {
+                    "img": "../images/p_pooh.jpg",
+                    "ho_title": ["곰돌이푸", "텍스트 채우기"],
+                    "cont": ["귀여운 곰돌이푸를", "글자로 채색했습니다"],
+                    "address": "../images/click_img/pooh.jpg",
+                    "target": "modal",
+                    "title": "디자인-포토샵"
+                },
+                {
+                    "img": "../images/p_santa.jpg",
+                    "ho_title": ["크리스마스", "카드만들기"],
+                    "cont": ["일러스트 그라데이션,warp 툴을 이용해", "크리스마스 카드를 만들었습니다."],
+                    "address": "../images/click_img/chirstmas.jpg",
+                    "target": "modal",
+                    "title": "디자인-카드(일러)"
+                },
+                {
+                    "img": "../images/p_groot.jpg",
+                    "ho_title": ["가디언즈 오브 갤럭시 '그루트'", "일러스트"],
+                    "cont": ["가디언즈오브갤럭시의 캐릭터", "그루트를 그려보았습니다"],
+                    "address": "../images/click_img/groot.jpg",
+                    "target": "modal",
+                    "title": "디자인-일러스트"
+                },
+                {
+                    "img": "../images/p_han.jpg",
+                    "ho_title": ["인물사진 ", "연필로 그린효과"],
+                    "cont": ["포토샵툴로 사진을", "연필로 그린듯한 효과로 바꿨습니다."],
+                    "address": "../images/click_img/drawing.jpg",
+                    "target": "modal",
+                    "title": "디자인-포토샵"
+                },
+                {
+                    "img": "../images/p_life.jpg",
+                    "ho_title": ["포토샵으로", "GIF작품 만들기"],
+                    "cont": ["자동차광고를 사람의 인생이라는 테마로", "GIF파일로 만들었습니다"],
+                    "address": "../images/click_img/life.gif",
+                    "target": "modal",
+                    "title": "디자인-포토샵"
+                },
+                {
+                    "img": "../images/p_ghost.jpg",
+                    "ho_title": ["거울에 비치는", "유령합성"],
+                    "cont": ["심신미약이신분들은", "눌러보지마세요"],
+                    "address": "../images/click_img/ghost.jpg",
+                    "target": "modal",
+                    "title": "디자인-합성"
+                },
+                {
+                    "img": "../images/p_logo.jpg",
+                    "ho_title": ["로고제작", "목업"],
+                    "cont": ["라우드소싱에 참가해서 제작한", "로고 디자인 및 목업입니다"],
+                    "address": "../images/click_img/logo.jpg",
+                    "target": "modal",
+                    "title": "디자인-로고(일러)"
+                },
+                {
+                    "img": "../images/p_witch.jpg",
+                    "ho_title": ["백설공주를 질투한", "마녀의 방"],
+                    "cont": ["패턴,메시 등을 활용해서", "마녀의 방을 만들었습니다."],
+                    "address": "../images/click_img/witch.jpg",
+                    "target": "modal",
+                    "title": "디자인-일러스트"
+                },
+                {
+                    "img": "../images/p_woman.jpg",
+                    "ho_title": ["비 내리는 호수", "여자"],
+                    "cont": ["비 내리는 효과를 주기 위해", "gif로 제작했습니다"],
+                    "address": "../images/click_img/women.gif",
+                    "target": "modal",
+                    "title": "디자인-포토샵"
+                }
+
+            ]
+        }
+
+    ]
 }
