@@ -17,14 +17,7 @@
                     "target": "modal",
                     "title": "디자인-리뉴얼웹사이트"
                 },
-                {
-                    "img": "../images/p5.jpg",
-                    "ho_title": ["성이시돌목장", "클라우드 디자인"],
-                    "cont": ["제주도의 성이시돌목장 페이지를", "클라우드(맥주) 디자인을 참고해 만들었습니다"],
-                    "address": "../main/index_puppy.html",
-                    "target": "link",
-                    "title": "웹사이트-성이시돌목장"
-                },
+         
                 {
                     "img": "../images/p3.jpg",
                     "ho_title": ["저스톡&그루트", "콜라보레이션"],
@@ -34,11 +27,19 @@
                     "title": "디자인-팝업"
                 },
                 {
+                    "img": "../images/p_man.jpg",
+                    "ho_title": ["Man up", "웹사이트"],
+                    "cont": ["영화 Man Up", "의 공식 웹사이트를 제작했습니다"],
+                    "address": "https://yune-manup.firebaseapp.com",
+                    "target": "link",
+                    "title": "웹사이트-Man up"
+                },
+                {
                     "img": "../images/p4.jpg",
                     "ho_title": ["전화영어 사이트 '저스톡'", "리뉴얼 웹사이트"],
                     "cont": ["전화영어사이트 '저스톡'을 ", "더 단순하고 세련된 디자인으로 만들었습니다"],
-                    "address": "../main/index_puppy.html",
-                    "target": "link",
+                    "address": "../images/click_img/just_renew.jpg",
+                    "target": "modal",
                     "title": "웹사이트-저스톡"
                 },
                 {
@@ -48,6 +49,14 @@
                     "address": "../images/click_img/rachel.jpg",
                     "target": "modal",
                     "title": "디자인-포토샵 화장"
+                },
+                {
+                    "img": "../images/p-data.jpg",
+                    "ho_title": ["강아지왕국", "리뉴얼웹사이트"],
+                    "cont": ["ajax,firebase를 사용하여", "강아지 쇼핑몰을 만들었습니다"],
+                    "address": "../main/index_puppy.html",
+                    "target": "link",
+                    "title": "웹사이트-강아지왕국"
                 },
                 {
                     "img": "../images/p7.jpg",
@@ -69,8 +78,8 @@
                     "img": "../images/p9.jpg",
                     "ho_title": ["코이카", "리뉴얼웹사이트"],
                     "cont": ["한국국제협력단 코이카", "리뉴얼웹사이트입니다."],
-                    "address": "../main/index_puppy.html",
-                    "target": "link",
+                    "address": "../images/click_img/koica.jpg",
+                    "target": "modal",
                     "title": "웹사이트-코이카"
                 },
                 {
@@ -80,6 +89,14 @@
                     "address": "../images/click_img/pooh.jpg",
                     "target": "modal",
                     "title": "디자인-포토샵"
+                },
+                {
+                    "img": "../images/p5.jpg",
+                    "ho_title": ["성이시돌목장", "클라우드 디자인"],
+                    "cont": ["제주도의 성이시돌목장 페이지를", "클라우드(맥주) 디자인을 참고해 만들었습니다"],
+                    "address": "../images/click_img/milk.jpg",
+                    "target": "modal",
+                    "title": "웹사이트-성이시돌목장"
                 },
                 {
                     "img": "../images/p_santa.jpg",
@@ -144,15 +161,8 @@
                     "address": "../images/click_img/women.gif",
                     "target": "modal",
                     "title": "디자인-포토샵"
-                },
-                {
-                    "img": "../images/p-data.jpg",
-                    "ho_title": ["강아지왕국", "리뉴얼웹사이트"],
-                    "cont": ["ajax,firebase를 사용하여", "강아지 쇼핑몰을 만들었습니다"],
-                    "address": "../main/index_puppy.html",
-                    "target": "link",
-                    "title": "웹사이트-강아지왕국"
                 }
+
 
 
             ]
@@ -178,6 +188,14 @@
                 "address": "../main/index_puppy.html",
                 "target": "link",
                 "title": "웹사이트-저스톡"
+            },
+            {
+                "img": "../images/p9.jpg",
+                "ho_title": ["코이카", "리뉴얼웹사이트"],
+                "cont": ["한국국제협력단 코이카", "리뉴얼웹사이트입니다."],
+                "address": "../main/index_puppy.html",
+                "target": "link",
+                "title": "웹사이트-코이카"
             }
 
             ]
@@ -185,12 +203,12 @@
         {
             "title": "BOOTSTRAP",
             "data": [                {
-                "img": "../images/p9.jpg",
-                "ho_title": ["코이카", "리뉴얼웹사이트"],
-                "cont": ["한국국제협력단 코이카", "리뉴얼웹사이트입니다."],
-                "address": "../main/index_puppy.html",
+                "img": "../images/p_man.jpg",
+                "ho_title": ["Man up", "웹사이트"],
+                "cont": ["영화 Man Up의", " 공식 웹사이트를 제작했습니다"],
+                "address": "https://yune-manup.firebaseapp.com",
                 "target": "link",
-                "title": "웹사이트-코이카"
+                "title": "웹사이트-Man up"
             }
 
             ]

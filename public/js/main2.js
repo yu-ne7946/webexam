@@ -91,7 +91,7 @@ $('.ml3').each(function(){
     });
 
 
-/**mobile nav*/
+/**scroll nav*/
 $(window).scroll(function () {
     var gap = $(window).scrollTop();
     if (gap > 150) {
@@ -144,6 +144,7 @@ $(".port_nav > li").click(function(){
     edPage = stPage + divPage;
     port.send(resultFn);
 });
+
 $(".port_nav > li").eq(0).trigger("click");
 
 $(".port_nav >li").mouseenter(function(){

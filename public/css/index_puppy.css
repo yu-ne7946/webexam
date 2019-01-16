@@ -6,17 +6,17 @@ body{background-color:rgb(184, 174, 201); font-size:1rem;}
 .wrap_title{width:80%; margin:auto; text-align:center; padding-bottom:5%;}
 .wrap_title h1{text-align:center; color:#101010; padding-bottom:1%;
 font-size:3em;}
-.wrap_title h3{color:#333; line-height:1.3em; padding-bottom:1%;}
+.wrap_title h3{color:rgb(70, 70, 70); line-height:1.3em; padding-bottom:5%;}
 .wrap_title h3 span{display:block;}
-.wrap_titie p a {text-decoration:underline;}
+.wrap_title p a {background-color:rgb(202, 202, 202); /* display:block;  */border-radius:10px;  padding:10px;}
 
 
 .wrap_box{width:100%; padding-bottom:7%;}
-.wrap_img{width:60%; box-sizing: border-box; border:1px solid #999; float:left;}
+.wrap_img{width:60%; box-sizing: border-box; border:1px solid rgb(209, 209, 209); float:left; padding:20px; }
 .wrap_txt{width:40%; box-sizing:border-box;text-align:center; 
     float:left; height:100%; padding-top:8%; } 
-.txtbox{width:90%; margin:auto; }
-.txtbox h2{font-size:1.5em; padding-bottom:2%;}
+.txtbox{width:90%; margin:auto; color:#999;}
+.txtbox h2{font-size:1.5em; padding-bottom:2%; color:rgb(59, 59, 59);}
 .txtbox >ul{width:90%; margin:auto; font-size:1.1em;}
 .txtbox >ul>li{padding-bottom:1.5%;}
 
