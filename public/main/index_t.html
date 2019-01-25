@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="../css/vegas.css"> -->
+    <link rel="stylesheet" href="../css/base2.css">
+    <link rel="stylesheet" href="../css/main2_t.css">
+
+
+    <script src="/__/firebase/5.5.8/firebase-app.js"></script>
+    <script src="/__/firebase/5.5.8/firebase-auth.js"></script>
+    <script src="/__/firebase/5.5.8/firebase-database.js"></script>
+    <script src="/__/firebase/5.5.8/firebase-messaging.js"></script>
+    <script src="/__/firebase/5.5.8/firebase-storage.js"></script>
+    <script src="/__/firebase/init.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+
+    <script src="../js/vegas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!--script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script-->
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="top clear">
+            <a href="#" class="te">
+                <img src="../images/Logonew_white.png" class="img" alt="">
+            </a>
+            <ul class="gnb">
+                <li><a href="#">INTRO</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">ABOUTME</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <ul class="gnb_mo clear">
+                <li><img src="../images/Logonew_white.png" class="img" alt=""></li>
+                <li><i class="fa fa-bars"></i></li>
+            </ul>
+            <ul class="gnb_sub">
+                <li><a href="#">INTRO</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">ABOUTME</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <section style="height:100%;">
+        <div class="main-banner pages" id="#page1">
+            <div class="slide_wrap">
+             <ul class="slides" id="slides">
+                 <li class="slide sli_one">                    
+                     <img src="../images/woman_small.png" class="main_img">
+                     
+                     <div class="main-content">
+                     <h1 class="te ">
+                        <span class="te_block">
+                            <span class="te_bold">Web</span>
+                            Publisher</span>
+                        <span class="te_block">Yune's
+                            <span class="te_bold">Portfolio</span>
+                        </span>
+                     </h1>
+
+           
+                    </div>
+                 </li>
+                 <li class="slide"></li>
+                 <li class="slide"></li>
+                 <li class="slide"></li>
+                 <li class="slide"></li>
+                 <li class="slide"></li>
+                 <li class="slide"></li>
+             </ul>
+
+
+
+
+
+                    
+<!--             <div class="main-content" id="main_core">
+               <h1 class="te">
+                    <span class="te_block">
+                        <span class="te_bold">Web</span>
+                        Publisher</span>
+                    <span class="te_block">Yune's
+                        <span class="te_bold">Portfolio</span>
+                    </span>
+                </h1>
+          
+                <h5> <span>Hi,there.
+                    </span>
+                    Thank you for visiting my page
+                </h5>
+            </div> -->
+
+            </div>
+
+
+            
+        </div>
+
+
+
+        <!------------------>
+        <div class="banner_2" id="banner_2">
+            <div class="ban2_img">
+                <h1 class="ml3">
+                    Luck is what happens 
+                </h1>
+                <h1 class="ml3">
+                        when preparation meets opportunity
+                </h1>
+                <h3 class="ml3 qu_right">
+                    <i class="fa fa-minus" aria-hidden="true"></i> Seneca
+                    <i class="fa fa-minus" aria-hidden="true"></i>
+
+                </h3>
+         
+            </div>
+        </div>
+
+        <!--port-->
+        <div class="port pages" id="page2">
+            <div class="port_line">
+                <div class="port_title">
+                    <img src="../images/port-purple.png" alt="" class="img">
+                </div>
+
+                <ul class="port_nav clear te">
+                    <li>
+                        ALL
+                        <div class="nav_line"></div>
+                    </li>
+
+                    <li>
+                        FIXED WEB
+                        <div class="nav_line"></div>
+                    </li>
+
+                    <li>
+                        RESPONSIVE WEB
+                        <div class="nav_line"></div>
+                    </li>
+
+                    <li>
+                        BOOTSTRAP
+                        <div class="nav_line"></div>
+                    </li>
+
+                    <li>
+                        DATABASE
+                        <div class="nav_line"></div>
+                    </li>
+
+                    <li>
+                       DESIGN ARTWORK
+                        <div class="nav_line"></div>
+                    </li>
+                </ul>
+
+                <div class="port_list_box">
+
+
+                </div>
+
+                <div class="port_bt"></div>
+
+            </div>
+
+            <div class="port-tri"></div>
+        </div>
+
+
+        <!----------------------------SKILLS-------------------------->
+        <div class="skills pages" id="page3">
+            <div class="skill_box">
+                <div class="skill_title">
+                    <img src="../images/skills.png" class="img">
+                </div>
+
+                <div class="wrap clear te chart_ani" data-ani="chart">
+                    <div class="chart_wrap">
+                        <canvas id="chart1" class="chart"></canvas>
+                        <div class="wrap_num">60%</div>
+                        <div class="wrap_txt">PHOTOSHOP</div>
+                    </div>
+                    <div class="chart_wrap">
+                        <canvas id="chart2" class="chart"></canvas>
+                        <div class="wrap_num">60%</div>
+                        <div class="wrap_txt">ILLUSTRATOR</div>
+                    </div>
+                    <div class="chart_wrap">
+                        <canvas id="chart3" class="chart"></canvas>
+                        <div class="wrap_num">90%</div>
+                        <div class="wrap_txt">HTML</div>
+                    </div>
+                    <div class="chart_wrap">
+                        <canvas id="chart4" class="chart"></canvas>
+                        <div class="wrap_num">90%</div>
+                        <div class="wrap_txt">CSS</div>
+                    </div>
+                    <div class="chart_wrap">
+                        <canvas id="chart5" class="chart"></canvas>
+                        <div class="wrap_num">60%</div>
+                        <div class="wrap_txt">JAVASCRIPT</div>
+                    </div>
+                    <div class="chart_wrap">
+                        <canvas id="chart6" class="chart"></canvas>
+                        <div class="wrap_num">60%</div>
+                        <div class="wrap_txt">JQUERY</div>
+                    </div>
+                </div>
+
+                <div class="skill_expl">
+                    <h3>사용자들의 경험을 조사하고 그 내용을 기반으로<span class="blo768">
+                            포토샵과 일러스트를 이용해 '사용자 중심 디자인'<span class="span2"> 컨셉을 
+                                <span class="span2_3">도출할 수 있습니다.</span></span></span></h3>
+                    <h3>inline, inline-block, block 속성과 <span class="span3">float, position 속성을 이해하고 </span><span class="blo768">간결한
+                            구조로
+                            웹페이지를 제작할 수 있습니다.</span></h3>
+                    <h3>자바스크립트와 제이쿼리를 이용한 애니메이션부터 <span class="span_380">ajax통신을 활용해<span class="blo768"> 자바스크립트로 데이터를 불러와</span> </span>웹페이지를 제작할 수
+                            있습니다</h3>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------  ABOUT ME---------------------------->
+        <div class="about clear pages" id="page4">
+
+            <div class="ab_tri"></div>
+
+            <!-----about me 제목 -->
+            <div class="ab_title">
+                <img src="../images/aboutme.png" class="img">
+            </div>
+
+            <!----왼쪽---->
+            <div class="ab_left clear">
+
+                <div class="ab_left_box">
+                    <!--정보-->
+                    <ul class="clear ab_leftop">
+                        <li class="ab_lf_title te">Name</li>
+                        <li class="ab_lf_title te">Birth</li>
+                        <li class="ab_lf_cont ab_mar">라윤혜</li>
+                        <li class="ab_lf_cont ab_mar">1994.1.18</li>
+                        <li class="ab_lf_title te">Nationality</li>
+                        <li class="ab_lf_title te">Education</li>
+                        <li class="ab_lf_cont te">Korean</li>
+                        <li class="ab_lf_cont span__">성공회대학교 경영학부
+                            <span>문화기획 부전공</span>
+                        </li>
+                    </ul>
+
+                    <!---language-->
+                    <div class="ab_lang clear te">
+                        <p>Language</p>
+                        <ul class="korean_detail">
+                            <li><img src="../images/nationko.jpg"></li>
+                            <li class="ab_lf_cont">Korean</li>
+                        </ul>
+                        <ul class="eng_detail">
+                            <li><img src="../images/nationAM.jpg"></li>
+                            <li class="ab_lf_cont">English</li>
+                            <li class="eng_score">TOEIC SPEAKING 7(2018)</li>
+                            <li class="eng_score">OPIC IH(2017)</li>
+                            <li class="eng_score">TOEIC 905(2017)</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="down_bt te">
+                        <button id="down_resu"><a href="../images/resume_yune.zip">
+                            <i class="fa fa-arrow-down"></i>DOWNLOAD RESUME
+                        </a>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <!----오른쪽---->
+
+            <div class="ab_right">
+
+            </div>
+
+
+
+        </div>
+
+        <!---------------------contact--------------------------->
+        <div class="resume clear pages" id="page5">
+            <div class="resu_box">
+                <!--제목 -->
+                <div class="resu_title">
+                    <img src="../images/contactme.png" class="img">
+                </div>
+
+                <!--연락처 아이콘 -->
+                <div class="resu_icon clear te">
+                    <div class="resu_div" id="resu_left">
+
+                        <div class="icon_box">
+                            <img src="../images/phone.png" >
+                            <span>010-6433-6138</span>
+                        </div>
+
+                    </div>
+
+                    <div class="resu_div" id="resu_center">
+
+                        <div class="icon_box">
+                            <img src="../images/git.png" >
+                            <span>github.com/yu-ne7946
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="resu_div" id="resu_right">
+
+                        <div class="icon_box">
+                            <img src="../images/mail.png" >
+                            <span>rleah2394@gmail.com
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+
+
+            <!-------------방명록 -------------->
+            <div class="resu-board">
+                <div class="resu_top">
+                <h3 class="te">Please Leave me a comment</h3>
+                <button class="login board_bt">
+                <i class="fa fa-google"></i>
+                <span>로그인</span>
+          
+            </button>
+            <button class="logout board_bt"><span>로그</span>아웃</button>
+        </div>
+
+                <!--방명록 입력칸  -->
+                <div class="resu_input clear">
+                    <div class="head_text"><textarea id="content" placeholder="방명록을 작성해주세요"></textarea></div>
+
+                    <div class="head_but">
+                    
+                
+                        <button id="bt_save" class="save board_bt">저장</button>
+                    </div>
+                </div>
+
+                <!--방명록 리스트-->
+                <ul class="lists">
+                    <!-- <li>
+                            <h4>글입니다.</h4>
+                            <h5 class="te">rhs250118@gmail.com</h5>
+                            <button class="rev_icon"><i class="fa fa-trash"></i></button>
+                        </li> -->
+                </ul>
+                <!-- <div class="out clear"></div> -->
+
+
+            </div>
+        </div>
+        <!--------------------------------------->
+
+        <footer>
+            <div class="foot_box">
+                <p class="te">Creator by Yunhye RA.2018</p>
+            </div>
+        </footer>
+
+    </section>
+    <div class="modal_wrap">
+        <div>
+            <div class="modal_cont">
+                <i class="modal_close fa fa-close" onclick="modalClose();"></i>
+                <img class="img">
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/device_chk.js"></script>
+    <script src="../js/Ajax.js"></script>
+    <script src="../js/SpaAni.js"></script>
+    <script src="../js/main2_t.js"></script>
+    
+
+</body>
+
+
+</html>
