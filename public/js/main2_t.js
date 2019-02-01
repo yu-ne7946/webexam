@@ -28,15 +28,18 @@ var interval;
 interval = setInterval(fullSlide,6000);
 function fullSlide(){
     console.log(ban);
-    $("#slides").stop().animate({"left":-(ban*100)+"%"},2000,function(){
+    $("#slides").stop().animate({"left":-(ban*100)+"%"},1000,function(){
         if(ban == 6){ban =0; $(this).css({"left":0})}
         ban++;
     })
 }
 
-window.onload = function(){
-    $(".slide").children(".main_img").stop().animate({"left":"1800px"},5000);
-} 
+window.onload= addAni();
+function addAni(){
+    $(".slide").children(".main_img").css({"animation-name":"move_bg"});
+}
+
+
 
 
 

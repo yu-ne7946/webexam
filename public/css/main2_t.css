@@ -16,20 +16,28 @@
 
 
 section{font-size:1rem;}
+
 /* mainbanner */
 .main-banner{width:100%; height:100%}
 .slide_wrap{width:100%; height:100%;    position:relative;   overflow:hidden; }
 .slides{width: 100%; height:100%;position:relative; } 
 #slides .slide{width:100%; height:100%; position:absolute;}
-#slides .slide:nth-child(1){left:0; top:0; background-image:url("../images/banner/ban1.jpg"); background-size:cover; background-position-x:center;background-position-y:30%;}
-#slides .slide:nth-child(2){left:100%; top:0; background-color:rgb(116, 192, 45);}
-#slides .slide:nth-child(3){left:200%; top:0; background-color:rgb(23, 228, 201);}
-#slides .slide:nth-child(4){left:300%; top:0; background-color:rgb(25, 43, 102);}
-#slides .slide:nth-child(5){left:400%; top:0; background-color:rgb(133, 21, 133);}
-#slides .slide:nth-child(6){left:500%;top:0;  background-color:rgb(68, 16, 66);}
-#slides .slide:nth-child(7){left:600%;top:0; background-color:rgb(228, 23, 23);}
+#slides .slide:nth-child(1){left:0; top:0; background-image:url("../images/banner/ban1_1.jpg"); background-size:cover; background-position-x:center;background-position-y:30%;}
+#slides .slide:nth-child(2){left:100%; top:0; background-color:#757a9f;}
+#slides .slide:nth-child(3){left:200%; top:0; background-color:#aab5d4;}
+#slides .slide:nth-child(4){left:300%; top:0; background-color:#e0b2d3;}
+#slides .slide:nth-child(5){left:400%; top:0; background-color:#f7c8d2;}
+#slides .slide:nth-child(6){left:500%;top:0;  background-color:#e4d7de;}
+/* #slides .slide:nth-child(7){left:600%;top:0; background-color:rgb(228, 23, 23);} */
  
-.slide .main_img{position:absolute; bottom:20px; left:30px;}
+.slide .main_img{position:absolute; bottom:2%; left:2%;/*  animation-name:move_bg; */ animation-duration:6.5s;
+animation-direction:normal; animation-iteration-count:infinite; animation-timing-function:linear;}
+
+@keyframes move_bg{
+     from{left:2%;}
+     to{left:98%}
+}
+
 .main-content{ position:absolute; top:35%; left:50%; transform:translate(-50%,-35%);text-align:center; /* display:none; */
      font-size:4.5rem; color:#fff; text-shadow:2px 2px 2px #442852;  font-family: 'Ubuntu', sans-serif;}
 .sli_one .te_block{display:block; font-weight:normal;}
