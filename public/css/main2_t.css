@@ -37,7 +37,7 @@ animation-direction:normal; animation-iteration-count:infinite; animation-timing
      from{left:2%;}
      to{left:98%}
 }
-/*Html*/
+/*************************Html************************/
 .html{width:100%; height:100%; padding-top:3%; padding-bottom:2%; background-color:#757a9f; font-size:1rem;}
 .html_logo{ width:20%;  margin:auto; background-color:#fff; color:red; 
 font-size:7rem; border-top:0.625rem solid #000; border-bottom:0.625rem solid #000;
@@ -140,7 +140,187 @@ background-color:beige;}
 .b_three_footer .th_foot_info li{float:left; width:100%; padding:10% 0; margin-bottom:7%;
 background-color:beige;}
 
-.css{width:100%; height:100%; background-color:#aab5d4;}
+/*************************CSS************************/
+.css{width:100%; height:100%; background-image: url("../images/banner/ban2_2.jpg"); background-size:cover;
+     background-position:bottom; position:relative;}
+     .fish_css{/* width:25%; */}
+     .fish_css h1{font-size:15rem; text-align:center;font-weight:bold; color:orange;
+         position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+     animation-name:color; animation-duration:5s; animation-direction:alternate; 
+     animation-iteration-count:infinite;}
+     
+     @keyframes color {
+         from{color:#9e0418;}
+         25%{color:#e98b11;}
+         50%{color: #faea1b;}
+         75%{color: #97c51c;}
+         to{color: #fff;}
+     }
+     
+     .f_css_eye{width:1.5rem; height:1.5rem; background-color:#000; border-radius:50%;
+     position:absolute; top:46%; left:17%;}
+     .f_css_tail{border-bottom:6.25rem solid #9e0418;
+         border-left:3.75rem solid transparent;
+         border-right:3.75rem solid transparent; 
+         height:0; 
+         width:9.375rem;  position:absolute; 
+     right:-45%; top:38%; transform:rotate(270deg);
+     animation-name:taleColor; animation-duration:5s; animation-direction:alternate; 
+     animation-iteration-count:infinite;}
+     @keyframes taleColor {
+         from{border-bottom:6.25rem solid #9e0418;}
+         25%{border-bottom:6.25rem solid #e98b11;}
+         50%{border-bottom:6.25rem solid #faea1b;}
+         75%{border-bottom:6.25rem solid #97c51c;}
+         to{border-bottom:6.25rem solid #fff;}
+        }
+     @-webkit-keyframes  taleColor {
+         from{border-bottom:6.25rem solid #9e0418;}
+         25%{border-bottom:6.25rem solid #e98b11;}
+         50%{border-bottom:6.25rem solid #faea1b;}
+         75%{border-bottom:6.25rem solid #97c51c;}
+         to{border-bottom:6.25rem solid #fff;}
+        }
+     .css_tail_in{}
+     
+     
+     .fish_one{width:15rem; height:5rem; border-radius:50%; 
+     background-color:#eb4b21; position:absolute; top:15%; left:5%;
+     animation:movefish1 5s infinite; }
+     @keyframes movefish1{
+         from{transform:translateX(0);}
+         to{transform:translateX(18.75rem);}
+     } 
+     @-webkit-keyframes movefish1{
+         from{transform:translateX(0);}
+         to{transform:translateX(18.75rem);}
+     } 
+     .f_one_tail{width:0; height:0;
+         position:absolute; left:-5%;
+     border-top:2.5rem solid transparent;
+     border-bottom:2.5rem solid transparent;
+     border-left:2.5rem solid #eb4b21;}
+     .f_one_eye{width:0.625rem; height:0.625rem;
+     background-color:#000; border-radius: 50%;
+     position:absolute; right:5%; top:40%;}
+     .f_one_mo{width:2.5rem; height:2.5rem;
+     border-left:2px solid #000; border-radius: 50%;
+     position:absolute; right:5%; top:17%;}
+     .f_one_grad{
+         position:absolute;background-color:#9ef1f2;
+     background:-webkit-radial-gradient(10% 10%, circle,white,#9ef1f2);
+     background:-moz-radial-gradient(10% 10%, circle,white,#9ef1f2);
+     background:-o-radial-gradient(10% 10%, circle,white,#9ef1f2);
+     background:radial-gradient(circle at 10% 10%,white,#9ef1f2);
+     }
+     
+     .f_one_air_1{width:1.25rem; height:1.25rem; border-radius:50%; 
+     right:-10%; top:0; animation:moveair 2s  infinite;
+     }
+     @keyframes moveair{
+         from{position:absolute; top:0; right:-10%; opacity:1;}
+         to{position:absolute; top:-60%; right:-10%; opacity:0;}
+     }
+     
+     @-webkit-keyframes moveair{
+         from{position:absolute; top:0; right:-10%; opacity:1;}
+         to{position:absolute; top:-60%; right:-10%; opacity:0;}
+     }
+     .f_one_air_2{width:25px; height:25px; border-radius:50%; 
+         right:-10%; top:-50%; animation:moveair2 2s infinite;
+         }
+     @keyframes moveair2{
+         from{position:absolute; top:-50%; right:-10%; opacity:1;}
+         to{position:absolute; top:-100%; right:-10%; opacity:0;}
+     }
+     @-webkit-keyframes moveair2{
+         from{position:absolute; top:-50%; right:-10%; opacity:1;}
+         to{position:absolute; top:-100%; right:-10%; opacity:0;}
+     }
+     .f_one_air_3{width:30px; height:30px; border-radius:50%; 
+             right:-10%; top:-90%; animation:moveair3 2s infinite;
+             }
+     @keyframes moveair3{
+         from{position:absolute; top:-90%; right:-10%; opacity:1;}
+         to{position:absolute; top:-130%; right:-10%; opacity:0;}
+     }
+     @-webkit-keyframes moveair3{
+         from{position:absolute; top:-90%; right:-10%; opacity:1;}
+         to{position:absolute; top:-130%; right:-10%; opacity:0;}
+     }
+     
+     
+     .fish_two{width:6.25rem; height:6.25rem;  background-color:#eb539e;
+     border-radius:50%; position:absolute; top:60%; right:7%;
+     animation:movefish2 3s infinite linear;}
+     @keyframes movefish2{
+         from{ transform:translateX(0);}
+         to{transform:translateX(-200px);}
+     }
+     @-webkit-keyframes movefish2{
+         from{ transform:translateX(0);}
+         to{transform:translateX(-200px);}
+     }
+     .f_two_tail{width:0; height:0; position:absolute; right:-7%;
+         top:10%;
+     border-top:2.5rem solid transparent;
+     border-bottom:2.5rem solid transparent;
+     border-right:2.5rem solid #eb539e;}
+     .f_two_eye{width:1.25rem; height:1.25rem; background-color:#000;
+     border-radius:50%; position:absolute; left:10%; top:40%;}
+     .f_two_mo{width:3.75rem; height:3.75rem;
+     border-right:2px solid #000; border-radius:50%;position:absolute; 
+     top:20%; left:2%;}
+     .f_two_grad{
+         position:absolute;background-color:#9ef1f2;
+     background:-webkit-radial-gradient(10% 10%, circle,white,#9ef1f2);
+     background:-moz-radial-gradient(10% 10%, circle,white,#9ef1f2);
+     background:-o-radial-gradient(10% 10%, circle,white,#9ef1f2);
+     background:radial-gradient(circle at 10% 10%,white,#9ef1f2);
+     }
+     .f_two_air_1{width:15px; height:15px; border-radius:50%; 
+         left:-20%; top:-30%;
+         animation:two_moveair1 1s infinite;
+         } 
+     @keyframes two_moveair1{
+             from{position:absolute; top:-30%; right:-10%; opacity:1;}
+             to{position:absolute; top:-60%; right:-10%; opacity:0;}
+         }
+     @-webkit-keyframes two_moveair1{
+             from{position:absolute; top:-30%; right:-10%; opacity:1;}
+             to{position:absolute; top:-60%; right:-10%; opacity:0;}
+         }
+     .f_two_air_2{width:16px; height:16px; border-radius:50%; 
+             left:-20%; top:-10%;
+             animation:two_moveair2 1s infinite;
+             }
+     @keyframes two_moveair2{
+                 from{position:absolute; top:-10%; right:-10%; opacity:1;}
+                 to{position:absolute; top:-30%; right:-10%; opacity:0;}
+             }
+     @-webkit-keyframes two_moveair2{
+                 from{position:absolute; top:-10%; right:-10%; opacity:1;}
+                 to{position:absolute; top:-30%; right:-10%; opacity:0;}
+             }
+     .f_two_air_3{width:17px; height:17px; border-radius:50%; 
+                 left:-20%; top:10%;
+                 animation:two_moveair3 1s infinite;
+                 }
+     @keyframes two_moveair3{
+                     from{position:absolute; top:10%; right:-10%; opacity:1;}
+                     to{position:absolute; top:-10%; right:-10%; opacity:0;}
+                 }
+     @-webkit-keyframes two_moveair3{
+                     from{position:absolute; top:10%; right:-10%; opacity:1;}
+                     to{position:absolute; top:-10%; right:-10%; opacity:0;}
+                 }
+     
+
+
+
+
+
+/**********************************************/
 .javascript{width:100%; height:100%; background-color:#e0b2d3;}
 .jQuery{width:100%; height:100%; background-color:#f7c8d2;}
 .Next{width:100%; height:100%; background-color:#e4d7de;}
